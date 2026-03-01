@@ -9,6 +9,7 @@ airflow/logs/
 # dbt
 dbt/target/
 dbt/logs/
+dbt/.user.yml
 
 # Data
 data/raw/
