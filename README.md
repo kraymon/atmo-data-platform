@@ -1,6 +1,6 @@
 # atmo-data-platform
 
-Pipeline de données pour l`ingestion et l`analyse quotidienne de la qualité de l`air en France basé sur les données open data ATMO
+Pipeline de données pour l'ingestion et l'analyse quotidienne de la qualité de l'air en France basé sur les données open data ATMO
 
 ## Stack
 
@@ -10,7 +10,7 @@ Pipeline de données pour l`ingestion et l`analyse quotidienne de la qualité de
 
 ### Principe clé
 
-L`historique s`accumule jour après jour : un fichier CSV téléchargé puis converti en Parquet chaque jour. DuckDB est reconstruit entièrement à chaque run depuis ces fichiers. 
+L'historique s'accumule jour après jour : un fichier CSV téléchargé puis converti en Parquet chaque jour. DuckDB est reconstruit entièrement à chaque run depuis ces fichiers.
 
 ## Source de données
 
@@ -23,8 +23,7 @@ L`historique s`accumule jour après jour : un fichier CSV téléchargé puis con
 
 Le DAG filtre uniquement `date_ech == J` pour ne conserver que la donnée observée, pas les prévisions.
 
-
 ## Contraintes connues
 
 - **Pas de backfill historique** : le CSV source ne contient que 3 jours glissants (J, J+1, J+2). Chaque jour non ingéré est définitivement perdu.
-- **Historique** : s`accumule uniquement via le DAG quotidien à partir de la date de démarrage du pipeline.
+- **Historique** : s'accumule uniquement via le DAG quotidien à partir de la date de démarrage du pipeline.
