@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Airflow
+airflow/logs/
+
+# dbt
+dbt/target/
+dbt/logs/
+
+# Data
+data/raw/
+data/processed/
+data/analytics/

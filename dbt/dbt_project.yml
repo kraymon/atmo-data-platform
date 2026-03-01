@@ -1,0 +1,14 @@
+name: "default"
+version: "1.0.0"
+
+profile: "default"
+
+model-paths: ["models"]
+
+models:
+  airflow_dbt:
+    staging:
+      +materialized: view
+
+    marts:
+      +materialized: table

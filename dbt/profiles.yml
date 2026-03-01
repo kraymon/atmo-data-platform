@@ -1,0 +1,8 @@
+default:
+  target: dev
+  outputs:
+
+    dev:
+      type: duckdb
+      path: /opt/data/analytics/atmo.duckdb
+      threads: 4
