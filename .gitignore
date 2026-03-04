@@ -16,3 +16,6 @@ dbt/.user.yml
 data/raw/
 data/processed/
 data/analytics/
+
+.env
+.env.local

@@ -3,10 +3,13 @@ version: "1.0.0"
 
 profile: "default"
 
+vars:
+  processed_path: "{{ env_var('PROCESSED_PATH', '/opt/data/processed') }}"
+
 model-paths: ["models"]
 
 models:
-  airflow_dbt:
+  atmo_platform:
     staging:
       +materialized: view
 

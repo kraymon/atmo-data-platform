@@ -7,7 +7,7 @@ import logging
 import os
 import pandas as pd
 from airflow.sdk import get_current_context
-from airflow.operators.bash import BashOperator
+from airflow.providers.standard.operators.bash import BashOperator
 
 log = logging.getLogger(__name__)
 
@@ -90,11 +90,16 @@ def atmo_daily_ingest():
     run_dbt_models = BashOperator(
         task_id="run_dbt_models",
         bash_command="""
-        dbt run \
-            --profiles-dir /opt/airflow/dbt \
-            --project-dir /opt/airflow/dbt \
-            --select stg_atmo_daily mart_atmo_commune
-        """
+            dbt run \
+                --profiles-dir /opt/airflow/dbt \
+                --project-dir /opt/airflow/dbt \
+                --select stg_atmo_daily mart_atmo_commune
+        """,
+        env={
+            "DUCKDB_PATH": "/opt/data/analytics/atmo.duckdb",
+            "PROCESSED_PATH": "/opt/data/processed",
+            "PATH": "/home/airflow/.local/bin:/usr/local/bin:/usr/bin:/bin",
+        },
     )
 
     data = download_data()

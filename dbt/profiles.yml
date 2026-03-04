@@ -4,5 +4,5 @@ default:
 
     dev:
       type: duckdb
-      path: /opt/data/analytics/atmo.duckdb
+      path: "{{ env_var('DUCKDB_PATH') }}"
       threads: 4

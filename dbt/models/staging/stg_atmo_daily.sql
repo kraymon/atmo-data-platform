@@ -2,7 +2,7 @@
 
 with source as (
     select *
-    from read_parquet('/opt/data/processed/*.parquet')
+    from read_parquet('{{ var("processed_path") }}/*.parquet')
 ),
 
 cleaned as (
@@ -10,9 +10,9 @@ cleaned as (
         -- Identifiants
         cast(date_ech as date)   as date_ech,
         cast(code_zone as varchar) as code_insee,
-        lib_zone                 as nom_commune,
+        lib_zone as nom_commune,
         type_zone,
-        source                   as source_aasqa,
+        source as source_aasqa,
 
         -- Indice global
         cast(code_qual as tinyint) as code_qual,
