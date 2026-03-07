@@ -19,3 +19,4 @@ data/analytics/
 
 .env
 .env.local
+.vscode/

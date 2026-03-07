@@ -26,6 +26,17 @@ cleaned as (
         cast(code_pm25 as tinyint) as code_pm25,
         cast(code_so2  as tinyint) as code_so2,
 
+        array_filter(
+            ['NO2', 'O3', 'PM10', 'PM25', 'SO2'],
+            x -> CASE x
+                WHEN 'NO2'  THEN code_no2  = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
+                WHEN 'O3'   THEN code_o3   = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
+                WHEN 'PM10' THEN code_pm10 = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
+                WHEN 'PM25' THEN code_pm25 = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
+                WHEN 'SO2'  THEN code_so2  = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
+            END
+        ) as polluants_declencheurs,
+
         -- Géographie
         cast(x_wgs84 as float) as longitude,
         cast(y_wgs84 as float) as latitude
@@ -36,6 +47,19 @@ cleaned as (
         code_qual not in (0, 7)
         -- Exclure lignes sans commune
         and code_zone is not null
+),
+
+-- supprime les doublons avec la même commune et le même code, en gardant la ligne avec la qualité d'air la plus mauvaise
+deduplicated as (
+    select *,
+    row_number() over (
+        partition by code_insee, nom_commune, date_ech
+        order by code_qual desc
+    ) as rn
+    from cleaned
 )
 
-select * from cleaned
+
+select * exclude (rn)  -- exclude pour ne pas exposer rn
+from deduplicated
+where rn = 1

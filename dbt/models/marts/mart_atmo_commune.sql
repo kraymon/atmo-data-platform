@@ -1,3 +1,6 @@
+-- depends_on: {{ ref('stg_atmo_daily') }}
+
+
 with base as (
     select * from {{ ref('stg_atmo_daily') }}
 ),
@@ -6,9 +9,6 @@ aggregated as (
     select
         code_insee,
         nom_commune,
-        source_aasqa,
-        latitude,
-        longitude,
 
         -- Période couverte
         min(date_ech) as premiere_date,
@@ -41,7 +41,19 @@ aggregated as (
         1) as pct_jours_acceptable
 
     from base
-    group by code_insee, nom_commune, source_aasqa, latitude, longitude
+    group by code_insee, nom_commune
+),
+
+with_dominant as (
+    select *,
+        case greatest(indice_moyen_no2, indice_moyen_o3, indice_moyen_pm10, indice_moyen_pm25, indice_moyen_so2)
+            when indice_moyen_no2  then 'NO2'
+            when indice_moyen_o3   then 'O3'
+            when indice_moyen_pm10 then 'PM10'
+            when indice_moyen_pm25 then 'PM25'
+            when indice_moyen_so2  then 'SO2'
+        end as polluant_dominant
+    from aggregated
 )
 
-select * from aggregated
+select * from with_dominant
