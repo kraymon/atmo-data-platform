@@ -37,6 +37,9 @@ cleaned as (
             END
         ) as polluants_declencheurs,
 
+        -- code département (2 premiers caractères du code INSEE)
+        left(cast(code_zone as varchar), 2) as code_departement,
+
         -- Géographie
         cast(x_wgs84 as float) as longitude,
         cast(y_wgs84 as float) as latitude
@@ -45,6 +48,11 @@ cleaned as (
     where
         -- Exclure indices invalides (0=absent, 7=événement)
         code_qual not in (0, 7)
+        and code_no2 not in (0, 7)
+        and code_o3  not in (0, 7)
+        and code_pm10 not in (0, 7)
+        and code_pm25 not in (0, 7)
+        and code_so2  not in (0, 7)
         -- Exclure lignes sans commune
         and code_zone is not null
 ),

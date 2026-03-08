@@ -1,54 +1,11 @@
---mart_atmo_daily_national
-WITH aggregated as (
-    select
-        date_ech,
-        count(*) as nb_communes,
-        round(avg(code_qual), 2) as indice_moyen_national,
-        count(*) filter (where code_qual = 1) as nb_bon,
-        count(*) filter (where code_qual >= 4) as nb_mauvais_ou_pire,
-        round(100.0 * count(*) filter (
-            where array_contains(polluants_declencheurs, 'NO2')
-        ) / count(*), 1) as pct_no2_declencheur,
-        round(100.0 * count(*) filter (
-            where array_contains(polluants_declencheurs, 'O3')
-        ) / count(*), 1) as pct_o3_declencheur,
-        round(100.0 * count(*) filter (
-            where array_contains(polluants_declencheurs, 'PM10')
-        ) / count(*), 1) as pct_pm10_declencheur,
-        round(100.0 * count(*) filter (
-            where array_contains(polluants_declencheurs, 'PM25')
-        ) / count(*), 1) as pct_pm25_declencheur,
-        round(100.0 * count(*) filter (
-            where array_contains(polluants_declencheurs, 'SO2')
-        ) / count(*), 1) as pct_so2_declencheur
-    from stg_atmo_daily
-    group by date_ech
-),
+SELECT *
+FROM mart_atmo_daily_departement
+ORDER BY date_ech DESC;
 
-with_dominant as (
-    select *,
-        case greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
-            when pct_no2_declencheur  then 'NO2'
-            when pct_o3_declencheur   then 'O3'
-            when pct_pm10_declencheur then 'PM10'
-            when pct_pm25_declencheur then 'PM25'
-            when pct_so2_declencheur  then 'SO2'
-        end as polluant_dominant_national
-    from aggregated
-)
+select * from mart_atmo_daily_national;
 
-select 
-    date_ech, nb_communes, 
-    indice_moyen_national, 
-    nb_bon,nb_mauvais_ou_pire, 
-    polluant_dominant_national,
-    pct_no2_declencheur,
-    pct_o3_declencheur,
-    pct_pm10_declencheur,
-    pct_pm25_declencheur,
-    pct_so2_declencheur 
-from with_dominant
-order by date_ech desc;
+select * from mart_atmo_commune;
+
 
 -- top atmo communes
 SELECT
@@ -62,4 +19,10 @@ WHERE nb_jours_mesures >= 7  -- exclure les communes avec peu de données
 ORDER BY indice_moyen ASC    -- meilleures en premier
 LIMIT 20;
 
-select * from mart_atmo_daily_national;
+SELECT 
+    min(code_no2) as min_no2, max(code_no2) as max_no2,
+    min(code_o3)  as min_o3,  max(code_o3)  as max_o3,
+    min(code_pm10) as min_pm10, max(code_pm10) as max_pm10,
+    min(code_pm25) as min_pm25, max(code_pm25) as max_pm25,
+    min(code_so2)  as min_so2,  max(code_so2)  as max_so2
+FROM stg_atmo_daily;

@@ -1,0 +1,57 @@
+version: 2
+
+models:
+  - name: stg_atmo_daily
+    description: "Données ATMO nettoyées et dédupliquées, une ligne par commune par jour"
+    columns:
+      - name: date_ech
+        description: "Date de l'indice"
+        tests:
+          - not_null
+
+      - name: code_insee
+        description: "Code INSEE de la commune ou EPCI"
+        tests:
+          - not_null
+
+      - name: code_departement
+        description: "2 premiers chiffres du code INSEE"
+        tests:
+          - not_null
+
+      - name: code_qual
+        description: "Indice global ATMO de 1 à 6"
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4, 5, 6]
+
+      - name: code_no2
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4, 5, 6]
+
+      - name: code_o3
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4, 5, 6]
+
+      - name: code_pm10
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4, 5, 6]
+
+      - name: code_pm25
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4, 5, 6]
+
+      - name: code_so2
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4, 5, 6]

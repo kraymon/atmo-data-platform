@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: mart_atmo_commune
+    description: "Profil agrégé de chaque commune sur toute la période"
+    columns:
+      - name: code_insee
+        tests:
+          - not_null
+      - name: indice_moyen
+        tests:
+          - not_null
+
+  - name: mart_atmo_daily_national
+    description: "Vue nationale agrégée par jour"
+    columns:
+      - name: date_ech
+        tests:
+          - not_null
+          - unique
+      - name: indice_moyen_national
+        tests:
+          - not_null
+
+  - name: mart_atmo_departement_daily
+    description: "Vue par département par jour"
+    columns:
+      - name: date_ech
+        tests:
+          - not_null
+      - name: code_departement
+        tests:
+          - not_null

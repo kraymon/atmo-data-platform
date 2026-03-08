@@ -33,14 +33,18 @@ aggregated as (
 ),
 
 with_dominant as (
-    select *,
-        case greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
-            when pct_no2_declencheur  then 'NO2'
-            when pct_o3_declencheur   then 'O3'
-            when pct_pm10_declencheur then 'PM10'
-            when pct_pm25_declencheur then 'PM25'
-            when pct_so2_declencheur  then 'SO2'
-        end as polluant_dominant_national
+    select
+        *,
+        array_filter(
+            ['NO2', 'O3', 'PM10', 'PM25', 'SO2'],
+            x -> CASE x
+                WHEN 'NO2'  THEN pct_no2_declencheur  = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
+                WHEN 'O3'   THEN pct_o3_declencheur   = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
+                WHEN 'PM10' THEN pct_pm10_declencheur = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
+                WHEN 'PM25' THEN pct_pm25_declencheur = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
+                WHEN 'SO2'  THEN pct_so2_declencheur  = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
+            END
+        ) as polluants_dominants_national
     from aggregated
 )
 
@@ -48,7 +52,7 @@ select
     date_ech, nb_communes, 
     indice_moyen_national, 
     nb_bon,nb_mauvais_ou_pire, 
-    polluant_dominant_national,
+    polluants_dominants_national,
     pct_no2_declencheur,
     pct_o3_declencheur,
     pct_pm10_declencheur,
