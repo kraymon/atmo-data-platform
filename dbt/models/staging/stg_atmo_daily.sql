@@ -38,11 +38,28 @@ cleaned as (
         ) as polluants_declencheurs,
 
         -- code département (2 premiers caractères du code INSEE)
-        left(cast(code_zone as varchar), 2) as code_departement,
+        CASE
+            WHEN length(cast(code_zone as varchar)) > 5
+                THEN '973'                                   -- codes INSEE Guyane atypiques
+            WHEN left(cast(code_zone as varchar), 2) = '97'
+                THEN left(cast(code_zone as varchar), 3)    -- 971, 972
+            ELSE left(cast(code_zone as varchar), 2)       -- 01→96, 2A, 2B
+        END as code_departement,
 
         -- Géographie
-        cast(x_wgs84 as float) as longitude,
-        cast(y_wgs84 as float) as latitude
+        CASE
+            WHEN cast(x_wgs84 as float) BETWEEN -180 AND 180
+            AND  cast(y_wgs84 as float) BETWEEN -90  AND 90
+            THEN cast(x_wgs84 as float)
+            ELSE NULL
+        END as longitude,
+
+        CASE
+            WHEN cast(x_wgs84 as float) BETWEEN -180 AND 180
+            AND  cast(y_wgs84 as float) BETWEEN -90  AND 90
+            THEN cast(y_wgs84 as float)
+            ELSE NULL
+        END as latitude,
 
     from source
     where
