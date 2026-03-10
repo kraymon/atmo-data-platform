@@ -13,3 +13,5 @@ RUN pip install --no-cache-dir \
     duckdb \
     dbt-core==1.7.4 \
     dbt-duckdb==1.7.4
+
+RUN pip install openmeteo-requests

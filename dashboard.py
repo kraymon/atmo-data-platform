@@ -9,6 +9,23 @@ st.title("🌬️ Qualité de l'air en France")
 
 con = duckdb.connect(DUCKDB_PATH, read_only=True)
 
+
+# ─── Explorateur SQL ──────────────────────────────────────────────
+st.header("Explorateur SQL")
+
+query = st.text_area(
+    "Requête SQL",
+    value="SELECT * FROM mart_atmo_daily_national LIMIT 10",
+    height=150
+)
+
+if st.button("Exécuter"):
+    try:
+        df_query = con.sql(query).df()
+        st.dataframe(df_query, use_container_width=True)
+    except Exception as e:
+        st.error(f"Erreur : {e}")
+
 # ─── National par jour ───────────────────────────────────────────
 st.header("Vue nationale")
 

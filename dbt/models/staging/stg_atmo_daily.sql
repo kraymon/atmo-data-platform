@@ -2,7 +2,7 @@
 
 with source as (
     select *
-    from read_parquet('{{ var("processed_path") }}/*.parquet')
+    from read_parquet('{{ var("processed_path") }}/atmo/*.parquet')
 ),
 
 cleaned as (

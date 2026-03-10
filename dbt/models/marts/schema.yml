@@ -22,7 +22,7 @@ models:
         tests:
           - not_null
 
-  - name: mart_atmo_departement_daily
+  - name: mart_atmo_daily_departement
     description: "Vue par département par jour"
     columns:
       - name: date_ech

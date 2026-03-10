@@ -25,7 +25,7 @@ def atmo_daily_ingest():
         # use date to create daily files
         context = get_current_context()
         date = context["ds"]
-        local_path = f"{BASE_DATA_PATH}/raw/{date}_atmo_data.csv"
+        local_path = f"{BASE_DATA_PATH}/raw/atmo/{date}_atmo_data.csv"
 
         os.makedirs(os.path.dirname(local_path), exist_ok=True)
 
