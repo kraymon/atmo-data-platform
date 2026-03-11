@@ -73,7 +73,23 @@ def meteo_daily_ingest():
         df.to_parquet(parquet_path, index=False)
 
         return {"path": parquet_path, "date": ds}
+    
+    run_dbt_models = BashOperator(
+        task_id="run_dbt_models",
+        bash_command="""
+            dbt run \
+                --profiles-dir /opt/airflow/dbt \
+                --project-dir /opt/airflow/dbt \
+                --select stg_meteo_daily mart_atmo_meteo_daily_departement
+        """,
+        env={
+            "DUCKDB_PATH": "/opt/data/analytics/atmo.duckdb",
+            "PROCESSED_PATH": "/opt/data/processed",
+            "PATH": "/home/airflow/.local/bin:/usr/local/bin:/usr/bin:/bin",
+        },
+    )
 
-    fetch_meteo()
+    data = fetch_meteo()
+    data >> run_dbt_models
 
 meteo_daily_ingest()

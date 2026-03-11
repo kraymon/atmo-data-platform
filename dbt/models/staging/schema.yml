@@ -61,3 +61,28 @@ models:
           - accepted_values:
               arguments:
                 values: [1, 2, 3, 4, 5, 6]
+
+  - name: stg_meteo_daily
+    description: "Données météo Open-Meteo nettoyées, une ligne par département par jour"
+    columns:
+      - name: date_ech
+        data_tests:
+          - not_null
+      - name: code_departement
+        data_tests:
+          - not_null
+      - name: temperature_mean
+        data_tests:
+          - not_null
+      - name: temperature_max
+        data_tests:
+          - not_null
+      - name: temperature_min
+        data_tests:
+          - not_null
+      - name: wind_speed_max
+        data_tests:
+          - not_null
+      - name: weathercode
+        data_tests:
+          - not_null

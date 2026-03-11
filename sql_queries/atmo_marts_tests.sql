@@ -26,3 +26,10 @@ SELECT
     min(code_pm25) as min_pm25, max(code_pm25) as max_pm25,
     min(code_so2)  as min_so2,  max(code_so2)  as max_so2
 FROM stg_atmo_daily;
+
+SELECT DISTINCT code_insee, nom_commune, left(cast(code_insee as varchar), 2) as debut
+FROM stg_atmo_daily
+WHERE length(cast(code_insee as varchar)) > 5
+AND left(cast(code_insee as varchar), 4) != '2000'
+ORDER BY code_insee
+LIMIT 20;

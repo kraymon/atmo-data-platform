@@ -31,3 +31,22 @@ models:
       - name: code_departement
         tests:
           - not_null
+
+  - name: mart_atmo_meteo_daily_departement
+    description: "Croisement ATMO * météo par département par jour"
+    columns:
+      - name: date_ech
+        tests:
+          - not_null
+      - name: code_departement
+        tests:
+          - not_null
+      - name: indice_moyen
+        tests:
+          - not_null
+      - name: temperature_max
+        tests:
+          - not_null
+      - name: wind_speed_max
+        tests:
+          - not_null

@@ -9,6 +9,7 @@ aggregated as (
     select
         code_insee,
         nom_commune,
+        code_departement,
 
         -- Période couverte
         min(date_ech) as premiere_date,
@@ -41,7 +42,7 @@ aggregated as (
         1) as pct_jours_acceptable
 
     from base
-    group by code_insee, nom_commune
+    group by code_insee, nom_commune, code_departement
 ),
 
 with_dominant as (

@@ -39,11 +39,13 @@ cleaned as (
 
         -- code département (2 premiers caractères du code INSEE)
         CASE
-            WHEN length(cast(code_zone as varchar)) > 5
-                THEN '973'                                   -- codes INSEE Guyane atypiques
+            WHEN left(cast(code_zone as varchar), 4) = '2000'
+                THEN '973'                                              -- Guyane atypique
             WHEN left(cast(code_zone as varchar), 2) = '97'
-                THEN left(cast(code_zone as varchar), 3)    -- 971, 972
-            ELSE left(cast(code_zone as varchar), 2)       -- 01→96, 2A, 2B
+                THEN left(cast(code_zone as varchar), 3)                -- 971, 972, 974, 976
+            WHEN left(cast(code_zone as varchar), 2) = '24'
+                THEN substring(cast(code_zone as varchar), 3, 2)        -- EPCI → chiffres 3-4
+            ELSE left(cast(code_zone as varchar), 2)                    -- communes standard
         END as code_departement,
 
         -- Géographie
