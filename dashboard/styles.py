@@ -51,6 +51,18 @@ def inject_styles():
             color: var(--text);
         }
         .hero-title span { color: var(--accent); }
+        .hero-title .flicker-1 {
+            color: var(--accent);
+            animation: pulse 2.8s ease-in-out infinite;
+        }
+        .hero-title .flicker-2 {
+            color: var(--accent);
+            animation: pulse 2.8s ease-in-out 0.9s infinite;
+        }
+        .hero-title .flicker-3 {
+            color: var(--accent);
+            animation: pulse 2.8s ease-in-out 1.8s infinite;
+        }
         .hero-sub {
             font-family: 'DM Mono', monospace;
             font-size: 0.75rem;

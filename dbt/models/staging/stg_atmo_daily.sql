@@ -5,27 +5,37 @@ with source as (
     from read_parquet('{{ var("processed_path") }}/atmo/*.parquet')
 ),
 
+-- Référentiels
+communes as (
+    select
+        cast(COM as varchar)              as code_zone,
+        cast(DEP as varchar) as dept
+    from {{ ref('v_commune_2026') }}
+    where TYPECOM != 'COMD'
+),
+
+epci as (
+    select
+        split_part(cast(SIREN as varchar), ',', 1)            as code_zone,
+        split_part(cast(code_departement as varchar), ',', 1) as dept
+    from {{ ref('identifiants-epci-2024') }}
+),
+
 cleaned as (
     select
-        -- Identifiants
-        cast(date_ech as date)   as date_ech,
-        cast(code_zone as varchar) as code_insee,
-        lib_zone as nom_commune,
+        cast(date_ech as date)     as date_ech,
+        cast(s.code_zone as varchar) as code_insee,
+        lib_zone                   as nom_commune,
         type_zone,
-        source as source_aasqa,
-
-        -- Indice global
+        source                     as source_aasqa,
         cast(code_qual as tinyint) as code_qual,
         lib_qual,
         coul_qual,
-
-        -- Sous-indices polluants
         cast(code_no2  as tinyint) as code_no2,
         cast(code_o3   as tinyint) as code_o3,
         cast(code_pm10 as tinyint) as code_pm10,
         cast(code_pm25 as tinyint) as code_pm25,
         cast(code_so2  as tinyint) as code_so2,
-
         array_filter(
             ['NO2', 'O3', 'PM10', 'PM25', 'SO2'],
             x -> CASE x
@@ -37,43 +47,40 @@ cleaned as (
             END
         ) as polluants_declencheurs,
 
-        -- code département (2 premiers caractères du code INSEE)
-        CASE
-            WHEN left(cast(code_zone as varchar), 4) = '2000'
-                THEN '973'                                              -- Guyane atypique
-            WHEN left(cast(code_zone as varchar), 2) = '97'
-                THEN left(cast(code_zone as varchar), 3)                -- 971, 972, 974, 976
-            WHEN left(cast(code_zone as varchar), 2) = '24'
-                THEN substring(cast(code_zone as varchar), 3, 2)        -- EPCI → chiffres 3-4
-            ELSE left(cast(code_zone as varchar), 2)                    -- communes standard
-        END as code_departement,
+        -- Département via référentiel INSEE, fallback SIREN EPCI
+        coalesce(
+            c.dept,                                          -- COM → DEP direct
+            e.dept,                                          -- EPCI → seed epci
+            CASE cast(s.code_zone as varchar)
+                WHEN '200096675' THEN '56'                   -- CC Baud Communauté hardcodé
+            END,
+            left(cast(s.code_zone as varchar), 2)            -- COMD fallback
+        ) as code_departement,
 
-        -- Géographie
         CASE
             WHEN cast(x_wgs84 as float) BETWEEN -180 AND 180
             AND  cast(y_wgs84 as float) BETWEEN -90  AND 90
             THEN cast(x_wgs84 as float)
             ELSE NULL
         END as longitude,
-
         CASE
             WHEN cast(x_wgs84 as float) BETWEEN -180 AND 180
             AND  cast(y_wgs84 as float) BETWEEN -90  AND 90
             THEN cast(y_wgs84 as float)
             ELSE NULL
-        END as latitude,
+        END as latitude
 
-    from source
-    where
-        -- Exclure indices invalides (0=absent, 7=événement)
-        code_qual not in (0, 7)
-        and code_no2 not in (0, 7)
-        and code_o3  not in (0, 7)
-        and code_pm10 not in (0, 7)
-        and code_pm25 not in (0, 7)
-        and code_so2  not in (0, 7)
-        -- Exclure lignes sans commune
-        and code_zone is not null
+    from source s
+    left join communes c on cast(s.code_zone as varchar) = c.code_zone
+    left join epci     e on cast(s.code_zone as varchar) = e.code_zone
+
+    where code_qual  not in (0, 7)
+      and code_no2   not in (0, 7)
+      and code_o3    not in (0, 7)
+      and code_pm10  not in (0, 7)
+      and code_pm25  not in (0, 7)
+      and code_so2   not in (0, 7)
+      and s.code_zone  is not null
 ),
 
 -- supprime les doublons avec la même commune et le même code, en gardant la ligne avec la qualité d'air la plus mauvaise

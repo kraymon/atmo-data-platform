@@ -1,0 +1,1268 @@
+nom,SIREN,type,code_departement,code_region,population
+Ardenne Métropole,200041630,CA,08,44,124014
+Aubrac Lot Causses Tarn,200069268,CC,48,76,8161
+Blavet Bellevue Océan Communauté,245600440,CC,56,53,18911
+Bordeaux Métropole,243300316,MET,33,75,842622
+Boucle Nord de Seine,200057990,EPT,92,11,457654
+Brest Métropole,242900314,MET,29,53,216077
+Clermont Auvergne Métropole,246300701,MET,63,84,301376
+Communauté d'agglomération Agglo Pays d'Issoire,200070407,CA,63,84,58003
+Communauté d'agglomération Agglo du Pays de Dreux,200040277,CA,"27,28","24,28",117534
+Communauté d'agglomération Agglomération d'Agen,200096956,CA,47,75,104049
+Communauté d'agglomération Agglomération d'Agen,200096956,CA,47,75,104049
+Communauté d'agglomération Alès Agglomération,200066918,CA,30,76,136510
+Communauté d'agglomération Amiens Métropole,248000531,CA,80,32,184918
+Communauté d'agglomération Annemasse-Les Voirons-Agglomération,200011773,CA,74,84,94822
+Communauté d'agglomération Annonay Rhône Agglo,200072015,CA,07,84,51028
+Communauté d'agglomération Arche Agglo,200073096,CA,"07,26",84,60516
+Communauté d'agglomération Arlysère,200068997,CA,73,84,63519
+Communauté d'agglomération Bassin d'Arcachon Sud (COBAS),243300563,CA,33,75,70553
+"Communauté d'agglomération Beaune,Côte et Sud - Communauté Beaune-Chagny-Nolay",200006682,CA,"21,71",27,51929
+Communauté d'agglomération Bergeracoise,200070647,CA,24,75,62436
+Communauté d'agglomération Bourges Plus,241800507,CA,18,24,104700
+Communauté d'agglomération CIVIS (Communauté Intercommunale des Villes Solidaires),249740077,CA,974,04,183407
+Communauté d'agglomération Cannes Pays de Lérins,200039915,CA,06,93,159274
+Communauté d'agglomération Cap Excellence,200018653,CA,971,01,98532
+Communauté d'agglomération Carcassonne Agglo,200035715,CA,11,76,116510
+Communauté d'agglomération Caux Seine Agglo,200010700,CA,76,28,79381
+Communauté d'agglomération Chartres Métropole,200033181,CA,28,24,140271
+Communauté d'agglomération Chauny-Tergnier-La Fère,200071785,CA,02,32,55932
+Communauté d'agglomération Cholet Agglomération,200071678,CA,49,52,107610
+Communauté d'agglomération Châteauroux Métropole,243600327,CA,36,24,74970
+Communauté d'agglomération Clisson Sèvre et Maine Agglo,200067635,CA,44,52,58565
+Communauté d'agglomération Colmar Agglomération,246800726,CA,68,44,115921
+Communauté d'agglomération Communauté Paris-Saclay,200056232,CA,91,11,320051
+Communauté d'agglomération Concarneau Cornouaille Agglomération,242900769,CA,29,53,53545
+Communauté d'agglomération Coulommiers Pays de Brie,200090504,CA,77,11,95882
+Communauté d'agglomération Creil Sud Oise,200068047,CA,60,32,89795
+Communauté d'agglomération Cœur d'Essonne Agglomération,200057859,CA,91,11,208858
+Communauté d'agglomération Cœur de Flandre,200040947,CA,59,32,104275
+Communauté d'agglomération Dinan Agglomération,200068989,CA,22,53,106227
+Communauté d'agglomération Douaisis Agglo,200044618,CA,59,32,150500
+Communauté d'agglomération Dracénie Provence Verdon Agglomération,248300493,CA,83,93,112972
+Communauté d'agglomération Durance-Lubéron-Verdon Agglomération,200034700,CA,"04,83",93,64993
+Communauté d'agglomération ECLA  (Espace Communautaire Lons Agglomération),200071116,CA,39,27,35853
+Communauté d'agglomération Estérel Côte d'Azur Agglomération,200035319,CA,83,93,120338
+Communauté d'agglomération Evreux Portes de Normandie,200071454,CA,27,28,113592
+Communauté d'agglomération Flers Agglo,200035814,CA,61,28,54436
+Communauté d'agglomération Fougères Agglomération,200072452,CA,35,53,57436
+Communauté d'agglomération Fécamp Caux Littoral Agglomération,200069821,CA,76,28,38996
+Communauté d'agglomération Gaillac-Graulhet,200066124,CA,81,76,76965
+Communauté d'agglomération Gap-Tallard-Durance,200067825,CA,"04,05",93,52244
+Communauté d'agglomération Golfe du Morbihan - Vannes Agglomération,200067932,CA,56,53,180111
+Communauté d'agglomération Grand Auch Cœur de Gascogne,200066926,CA,32,76,41293
+Communauté d'agglomération Grand Belfort,200069052,CA,90,27,103192
+Communauté d'agglomération Grand Calais Terres et Mers,200090751,CA,62,32,100079
+Communauté d'agglomération Grand Châtellerault,248600413,CA,86,75,84998
+Communauté d'agglomération Grand Lac,200068674,CA,73,84,80416
+Communauté d'agglomération Grand Montauban,248200099,CA,82,76,81246
+Communauté d'agglomération Grand Paris Sud Seine Essonne Sénart,200059228,CA,"77,91",11,360248
+Communauté d'agglomération Grand Sud Caraïbe,249710070,CA,971,01,77485
+Communauté d'agglomération GrandSoissons Agglomération,240200477,CA,02,32,53677
+Communauté d'agglomération Guingamp-Paimpol Agglomération de l'Armor à l'Argoat,200067981,CA,22,53,75978
+Communauté d'agglomération Haut - Bugey Agglomération,200042935,CA,01,84,65148
+Communauté d'agglomération Hérault-Méditerranée,243400819,CA,34,76,82169
+Communauté d'agglomération Intercommunale de la Réunion Est (CIREST),249740093,CA,974,04,129147
+Communauté d'agglomération Intercommunale du Nord de la Réunion (CINOR),249740119,CA,974,04,215588
+Communauté d'agglomération L'agglo Foix-Varilhes,200067791,CA,09,76,33097
+Communauté d'agglomération La Riviera du Levant,200041507,CA,971,01,66525
+Communauté d'agglomération La Roche-sur-Yon Agglomération,248500589,CA,85,52,102226
+Communauté d'agglomération Lamballe Terre et Mer,200069391,CA,22,53,70289
+Communauté d'agglomération Lannion-Trégor Communauté,200065928,CA,22,53,103934
+Communauté d'agglomération Laval Agglomération,200083392,CA,53,52,118899
+Communauté d'agglomération Le Grand Chalon,247100589,CA,71,27,117686
+Communauté d'agglomération Le Grand Narbonne,241100593,CA,11,76,134654
+Communauté d'agglomération Le Grand Périgueux,200040392,CA,24,75,107330
+Communauté d'agglomération Le Muretain Agglo,200068641,CA,31,76,128773
+Communauté d'agglomération Les Sables d'Olonne Agglomération,200071165,CA,85,52,59482
+Communauté d'agglomération Lisieux Normandie,200069532,CA,14,28,74667
+Communauté d'agglomération Loire Forez Agglomération,200065886,CA,42,84,114631
+Communauté d'agglomération Lorient Agglomération,200042174,CA,56,53,211834
+Communauté d'agglomération Luberon Monts de Vaucluse,200040442,CA,84,93,55961
+Communauté d'agglomération Lunel Agglo,243400520,CA,34,76,51987
+Communauté d'agglomération Marne et Gondoire,247700594,CA,77,11,109578
+Communauté d'agglomération Maubeuge Val de Sambre,200043396,CA,59,32,124830
+Communauté d'agglomération Mauges Communauté,200060010,CA,49,52,124682
+Communauté d'agglomération Melun Val de Seine,247700057,CA,77,11,137725
+Communauté d'agglomération Mont-Saint-Michel-Normandie,200069425,CA,50,28,90335
+Communauté d'agglomération Montargoise et Rives du Loing (AME),244500203,CA,45,24,64669
+Communauté d'agglomération Montluçon Communauté,200071082,CA,03,84,61043
+Communauté d'agglomération Montélimar Agglomération,200040459,CA,26,84,70334
+Communauté d'agglomération Morlaix Communauté,242900835,CA,29,53,66881
+Communauté d'agglomération Moulins Communauté,200071140,CA,"03,58","27,84",66390
+Communauté d'agglomération Mulhouse Alsace Agglomération,200066009,CA,68,44,276696
+Communauté d'agglomération Mâconnais Beaujolais Agglomération,200070308,CA,"01,71","27,84",81134
+Communauté d'agglomération Paris - Vallée de la Marne,200057958,CA,77,11,230151
+Communauté d'agglomération Pau Béarn Pyrénées,200067254,CA,64,75,168379
+Communauté d'agglomération Pays de Montbéliard Agglomération,200065647,CA,25,27,142396
+Communauté d'agglomération Plaine Vallée,200056380,CA,95,11,186594
+Communauté d'agglomération Pornic Agglo Pays de Retz,200067346,CA,44,52,69208
+Communauté d'agglomération Porte de l'Isère (CAPI),243800604,CA,38,84,112905
+Communauté d'agglomération Portes de France-Thionville,245701362,CA,57,44,84695
+Communauté d'agglomération Privas Centre Ardèche,200071413,CA,07,84,45015
+Communauté d'agglomération Provence-Alpes-Agglomération,200067437,CA,04,93,49782
+Communauté d'agglomération Quimper Bretagne Occidentale,200068120,CA,29,53,104761
+Communauté d'agglomération Quimperlé Communauté,242900694,CA,29,53,58104
+Communauté d'agglomération Rambouillet Territoires,200073344,CA,78,11,80950
+Communauté d'agglomération Redon Agglomération,243500741,CA,"35,44,56","52,53",69036
+Communauté d'agglomération Riom Limagne et Volcans,200070753,CA,63,84,69663
+Communauté d'agglomération Roannais Agglomération,200035731,CA,42,84,103731
+Communauté d'agglomération Rochefort Océan,200041762,CA,17,75,65555
+Communauté d'agglomération Rodez Agglomération,241200187,CA,12,76,59127
+Communauté d'agglomération Roissy Pays de France,200055655,CA,"77,95",11,361855
+Communauté d'agglomération Royan Atlantique,241700640,CA,17,75,87002
+Communauté d'agglomération Saint Germain Boucles de Seine,200058519,CA,"78,95",11,342792
+Communauté d'agglomération Saint-Avold Synergie,200067502,CA,57,44,53130
+Communauté d'agglomération Saint-Brieuc Armor Agglomération,200069409,CA,22,53,157697
+Communauté d'agglomération Saint-Louis Agglomération,200066058,CA,68,44,84947
+Communauté d'agglomération Saint-Lô Agglo,200066389,CA,50,28,79285
+Communauté d'agglomération Sarreguemines Confluences,200070746,CA,"57,67",44,64878
+Communauté d'agglomération Saumur Val de Loire,200071876,CA,49,52,100790
+Communauté d'agglomération Seine Normandie Agglomération,200072312,CA,27,28,84867
+Communauté d'agglomération Seine-Eure,200089456,CA,27,28,104704
+Communauté d'agglomération Sud Sainte Baume,248300394,CA,83,93,65125
+Communauté d'agglomération Sète Agglopôle Méditerranée,200066355,CA,34,76,130502
+Communauté d'agglomération Tarbes-Lourdes-Pyrénées,200069300,CA,65,76,130127
+Communauté d'agglomération Terre de Provence,200035087,CA,13,93,61424
+Communauté d'agglomération Terres de Montaigu,200070233,CA,85,52,51342
+Communauté d'agglomération Territoire de la Côte Ouest (TCO),249740101,CA,974,04,218184
+Communauté d'agglomération Territoires Vendômois,200072072,CA,41,24,54211
+Communauté d'agglomération Thonon Agglomération,200067551,CA,74,84,95635
+Communauté d'agglomération Troyes Champagne Métropole,200069250,CA,10,44,179084
+Communauté d'agglomération Tulle Agglo,241927201,CA,19,75,45493
+Communauté d'agglomération Val Parisis,200058485,CA,95,11,288575
+Communauté d'agglomération Val d'Europe Agglomération,247700339,CA,77,11,53677
+Communauté d'agglomération Val d'Yerres Val de Seine,200058477,CA,91,11,178586
+Communauté d'agglomération Val de Garonne Agglomération,200030674,CA,47,75,61773
+Communauté d'agglomération Valence Romans Agglo,200068781,CA,26,84,228725
+Communauté d'agglomération Valenciennes Métropole,245901160,CA,59,32,193856
+Communauté d'agglomération Ventoux-Comtat-Venaissin (COVE),248400053,CA,84,93,73475
+Communauté d'agglomération Versailles Grand Parc (CAVGP),247800584,CA,"78,91",11,273207
+Communauté d'agglomération Vichy Communauté,200071363,CA,03,84,86098
+Communauté d'agglomération Vienne Condrieu,200077014,CA,"38,69",84,95142
+Communauté d'agglomération Villefranche Beaujolais Saône,200040590,CA,"01,69",84,74314
+Communauté d'agglomération Vitré Communauté,200039022,CA,35,53,84858
+Communauté d'agglomération d'Arles-Crau-Camargue-Montagnette,241300417,CA,13,93,84617
+Communauté d'agglomération d'Hénin-Carvin,246200299,CA,62,32,127765
+Communauté d'agglomération d'Épinal,200068757,CA,88,44,113625
+Communauté d'agglomération de Bar-le-Duc - Sud Meuse,200033025,CA,55,44,34861
+Communauté d'agglomération de Bastia,242000354,CA,2B,94,63871
+"Communauté d'agglomération de Blois ""Agglopolys""",200030385,CA,41,24,109224
+"Communauté d'agglomération de Béthune-Bruay,Artois-Lys Romane",200072460,CA,62,32,278431
+Communauté d'agglomération de Béziers-Méditerranée,243400769,CA,34,76,131867
+Communauté d'agglomération de Cambrai,200068500,CA,59,32,81786
+Communauté d'agglomération de Castres Mazamet,248100430,CA,81,76,81264
+Communauté d'agglomération de Cergy-Pontoise,249500109,CA,"78,95",11,216320
+Communauté d'agglomération de Chaumont,200068658,CA,52,44,45850
+Communauté d'agglomération de Châlons-en-Champagne,200066876,CA,51,44,80768
+Communauté d'agglomération de Dembeni / Mamoudzou,200060457,CA,976,06,89090
+Communauté d'agglomération de Forbach Porte de France,245700372,CA,57,44,76764
+Communauté d'agglomération de Haguenau,200067874,CA,67,44,99908
+Communauté d'agglomération de La Rochelle,241700434,CA,17,75,182238
+Communauté d'agglomération de Lens - Liévin,246200364,CA,62,32,244525
+Communauté d'agglomération de Nevers,245804406,CA,58,27,69050
+Communauté d'agglomération de Nîmes Métropole,243000643,CA,30,76,262935
+Communauté d'agglomération de Saint-Dizier Der et Blaise,200068666,CA,"51,52",44,57225
+Communauté d'agglomération de Saint-Dié-des-Vosges,200071066,CA,"54,88",44,75039
+Communauté d'agglomération de Saint-Quentin-en-Yvelines,200058782,CA,78,11,232895
+Communauté d'agglomération de Saintes - Grandes Rives - L'Agglo,200036473,CA,17,75,63062
+Communauté d'agglomération de Sophia Antipolis,240600585,CA,06,93,184775
+Communauté d'agglomération de Vesoul,247000011,CA,70,27,33395
+Communauté d'agglomération de l'Albigeois (C2A),248100737,CA,81,76,85570
+Communauté d'agglomération de l'Auxerrois,200067114,CA,89,27,69851
+Communauté d'agglomération de l'Espace Sud de la Martinique,249720053,CA,972,02,116523
+Communauté d'agglomération de l'Ouest Rhodanien,200040566,CA,69,84,51647
+Communauté d'agglomération de la Baie de Somme,200070993,CA,80,32,49051
+Communauté d'agglomération de la Porte du Hainaut,200042190,CA,59,32,159883
+Communauté d'agglomération de la Presqu'île de Guérande Atlantique (Cap Atlantique),244400610,CA,"44,56","52,53",78604
+Communauté d'agglomération de la Provence Verte,200068104,CA,83,93,104050
+Communauté d'agglomération de la Riviera Française,240600551,CA,06,93,73662
+Communauté d'agglomération de la Région Dieppoise,247600786,CA,76,28,47068
+Communauté d'agglomération de la Région Nazairienne et de l'Estuaire (CARENE),244400644,CA,44,52,132232
+Communauté d'agglomération de la Région de Château-Thierry,200072031,CA,02,32,55425
+Communauté d'agglomération de la Région de Compiègne et de la Basse Automne,200067965,CA,60,32,85046
+Communauté d'agglomération des Deux Baies en Montreuillois,200069029,CA,62,32,67416
+Communauté d'agglomération des Sorgues du Comtat,248400293,CA,84,93,51947
+Communauté d'agglomération du Bassin d'Arcachon Nord,243301504,CA,33,75,72921
+Communauté d'agglomération du Bassin d'Aurillac,241500230,CA,15,84,55790
+Communauté d'agglomération du Bassin de Bourg-en-Bresse,200071751,CA,01,84,138158
+Communauté d'agglomération du Bassin de Brive,200043172,CA,19,75,110932
+Communauté d'agglomération du Beauvaisis,200067999,CA,60,32,106357
+Communauté d'agglomération du Bocage Bressuirais,200040244,CA,79,75,76338
+Communauté d'agglomération du Boulonnais,246200729,CA,62,32,113742
+Communauté d'agglomération du Caudrésis et du Catésis,200030633,CA,59,32,64366
+Communauté d'agglomération du Centre Littoral,249730045,CA,973,03,152186
+Communauté d'agglomération du Centre de la Martinique,249720061,CA,972,02,151587
+Communauté d'agglomération du Cotentin,200067205,CA,50,28,182702
+Communauté d'agglomération du Gard Rhodanien,200034692,CA,30,76,77061
+Communauté d'agglomération du Grand Angoulême,200071827,CA,16,75,146013
+Communauté d'agglomération du Grand Annecy,200066793,CA,74,84,216125
+Communauté d'agglomération du Grand Avignon (COGA),248400251,CA,"30,84","76,93",198487
+Communauté d'agglomération du Grand Cahors,200023737,CA,46,76,43718
+Communauté d'agglomération du Grand Chambéry,200069110,CA,73,84,144085
+Communauté d'agglomération du Grand Cognac,200070514,CA,16,75,70566
+Communauté d'agglomération du Grand Dax,244000675,CA,40,75,59694
+Communauté d'agglomération du Grand Dole,200010650,CA,39,27,56342
+Communauté d'agglomération du Grand Guéret,200034825,CA,23,75,29526
+Communauté d'agglomération du Grand Nord de Mayotte,200060465,CA,976,06,60372
+Communauté d'agglomération du Grand Sénonais,248900334,CA,89,27,60836
+Communauté d'agglomération du Grand Verdun,200049187,CA,55,44,28477
+Communauté d'agglomération du Grand Villeneuvois,200023307,CA,47,75,48762
+Communauté d'agglomération du Libournais,200070092,CA,33,75,94147
+Communauté d'agglomération du Niortais,200041317,CA,79,75,125784
+Communauté d'agglomération du Nord Basse-Terre,249710062,CA,971,01,79010
+Communauté d'agglomération du Nord Grande Terre,200044691,CA,971,01,57125
+Communauté d'agglomération du Pays Ajaccien,242010056,CA,2A,94,92333
+Communauté d'agglomération du Pays Basque,200067106,CA,64,75,330533
+Communauté d'agglomération du Pays Nord Martinique,200041788,CA,972,02,96806
+Communauté d'agglomération du Pays Voironnais,243800984,CA,38,84,98210
+Communauté d'agglomération du Pays de Fontainebleau,200072346,CA,77,11,70862
+Communauté d'agglomération du Pays de Gex,240100750,CA,01,84,104355
+Communauté d'agglomération du Pays de Grasse,200039857,CA,06,93,102366
+Communauté d'agglomération du Pays de Landerneau-Daoulas,242900801,CA,29,53,50997
+Communauté d'agglomération du Pays de Laon,200043495,CA,02,32,42772
+Communauté d'agglomération du Pays de Meaux,200072130,CA,77,11,109718
+Communauté d'agglomération du Pays de Saint Malo Agglomération,243500782,CA,35,53,88316
+Communauté d'agglomération du Pays de Saint-Gilles-Croix-de-Vie,200023778,CA,85,52,53485
+Communauté d'agglomération du Pays de Saint-Omer,200069037,CA,62,32,107574
+Communauté d'agglomération du Pays de l'Or,243400470,CA,34,76,45888
+Communauté d'agglomération du Puy-en-Velay,200073419,CA,43,84,84880
+Communauté d'agglomération du Saint-Quentinois,200071892,CA,02,32,81161
+Communauté d'agglomération du Sicoval,243100633,CA,31,76,84556
+Communauté d'agglomération du Sud,249740085,CA,974,04,134549
+Communauté d'agglomération du Val de Fensch,245701222,CA,57,44,71779
+"Communauté d'agglomération Épernay,Coteaux et Plaine de Champagne",200067684,CA,51,44,48068
+Communauté d'agglomération Étampois Sud Essonne,200017846,CA,91,11,56374
+Communauté de communes Adour Madiran,200072106,CC,"64,65","75,76",24634
+Communauté de communes Agly Fenouillèdes,246600423,CC,66,76,6396
+Communauté de communes Airvaudais-Val du Thouet,200041416,CC,79,75,7052
+Communauté de communes Albret Communauté,200068948,CC,47,75,26766
+Communauté de communes Alpes d'Azur,200039931,CC,06,93,10056
+Communauté de communes Alpes-Provence-Verdon - Sources de Lumière,200068625,CC,04,93,11621
+Communauté de communes Alsace Rhin Brisach,200066025,CC,68,44,34434
+Communauté de communes Altitude 800,242504488,CC,25,27,6954
+Communauté de communes Ambert Livradois Forez,200070761,CC,63,84,28347
+Communauté de communes Amognes Cœur du Nivernais,200067908,CC,58,27,8717
+Communauté de communes Andaine - Passais,200068443,CC,61,28,13210
+Communauté de communes Anjou Bleu Communauté,244900809,CC,49,52,35766
+Communauté de communes Anjou Loir et Sarthe,200068955,CC,49,52,28585
+"Communauté de communes Arbois,Poligny,Salins,Cœur du Jura",200071595,CC,39,27,22541
+Communauté de communes Arc Sud Bretagne,200027027,CC,56,53,29300
+"Communauté de communes Ardenne,Rives de Meuse",240800821,CC,08,44,26379
+Communauté de communes Ardennes Thiérache,200041622,CC,08,44,9742
+Communauté de communes Ardèche Rhône Coiron,200071405,CC,07,84,23679
+Communauté de communes Ardèche des Sources et Volcans,200039824,CC,07,84,9923
+Communauté de communes Argonne-Meuse,200066116,CC,55,44,7093
+Communauté de communes Arize Lèze,200066223,CC,09,76,11203
+Communauté de communes Armagnac Adour,200035632,CC,32,76,6896
+Communauté de communes Arnon Boischaut Cher,200027076,CC,18,24,8095
+Communauté de communes Artagnan de Fezensac,243200607,CC,32,76,7118
+Communauté de communes Arve et Salève,247400583,CC,74,84,20828
+Communauté de communes Astarac Arros en Gascogne,200035756,CC,32,76,7360
+"Communauté de communes Aubrac,Carladez et Viadène",200067171,CC,12,76,10238
+Communauté de communes Aunis Atlantique,200041499,CC,17,75,32219
+Communauté de communes Aunis Sud,200041614,CC,17,75,33523
+Communauté de communes Auray Quiberon Terre Atlantique,200043123,CC,56,53,92384
+Communauté de communes Aure Louron,246500573,CC,65,76,7078
+Communauté de communes Autour de Chenonceaux Bléré-Val de Cher,243700820,CC,37,24,22021
+Communauté de communes Aux sources du Canal du Midi,243100567,CC,"11,31,81",76,22297
+Communauté de communes Auxonne Pontailler Val de Saône,200070902,CC,21,27,23700
+Communauté de communes Auzon Communauté,244301099,CC,43,84,9582
+"Communauté de communes Avallon,Vézelay,Morvan",200039758,CC,89,27,18997
+Communauté de communes Aveyron Bas Ségala Viaur,241200807,CC,12,76,5709
+Communauté de communes Avre Luce Noye,200070969,CC,80,32,22098
+Communauté de communes Aygues-Ouvèze en Provence (CCAOP),248400160,CC,84,93,20473
+Communauté de communes Bassée-Montois,200040251,CC,77,11,23475
+Communauté de communes Bastides de Lomagne,200034726,CC,32,76,11699
+Communauté de communes Bastides et Vallons du Gers,243200508,CC,32,76,7233
+Communauté de communes Baugeois Vallée,244900882,CC,49,52,35470
+Communauté de communes Bazois Loire Morvan,200067882,CC,58,27,15393
+Communauté de communes Beaucaire Terre d'Argence,243000585,CC,30,76,31703
+Communauté de communes Beauce Val de Loire,200055481,CC,41,24,19931
+Communauté de communes Beaujolais Pierres Dorées,200040574,CC,69,84,56442
+Communauté de communes Berg et Coiron,240700815,CC,07,84,8155
+Communauté de communes Berry Grand Sud,200049484,CC,18,24,11692
+Communauté de communes Berry Loire Puisaye,200068278,CC,45,24,17924
+Communauté de communes Berry-Loire-Vauvise,200032514,CC,18,24,5526
+Communauté de communes Billom Communauté,200067627,CC,63,84,26466
+Communauté de communes Bièvre Isère,200059392,CC,38,84,57041
+Communauté de communes Bouzonvillois-Trois Frontières,200067486,CC,57,44,24703
+Communauté de communes Brenne - Val de Creuse,243600319,CC,36,24,18044
+Communauté de communes Bresse Haute Seille,200069615,CC,39,27,19591
+Communauté de communes Bresse Louhannaise Intercom',200071579,CC,71,27,28928
+Communauté de communes Bresse Nord Intercom',247100647,CC,71,27,6613
+Communauté de communes Bresse Revermont 71,200042414,CC,71,27,10094
+Communauté de communes Bresse et Saône,200071371,CC,01,84,26260
+Communauté de communes Bretagne Romantique,243500733,CC,35,53,37025
+Communauté de communes Bretagne porte de Loire Communauté,200070662,CC,35,53,33172
+Communauté de communes Briance Sud Haute Vienne,200040814,CC,87,75,9280
+Communauté de communes Briance-Combade,248719338,CC,87,75,5411
+Communauté de communes Brie Nangissienne,247700701,CC,77,11,28482
+Communauté de communes Brie des Rivières et Châteaux,200070779,CC,77,11,40583
+Communauté de communes Brionnais Sud Bourgogne,200070548,CC,71,27,15332
+Communauté de communes Brioude Sud Auvergne,200085728,CC,43,84,17447
+Communauté de communes Brocéliande Communauté,243500618,CC,35,53,19355
+Communauté de communes Bruyères-Vallons des Vosges,200042000,CC,88,44,15256
+Communauté de communes Bugey Sud,200040350,CC,01,84,35008
+Communauté de communes Buëch-Dévoluy,200067445,CC,05,93,9843
+Communauté de communes Cagire Garonne Salat,200073146,CC,31,76,18338
+Communauté de communes Campagne-de-Caux,247600505,CC,76,28,15273
+Communauté de communes Canaux et Forêts en Gâtinais,200067676,CC,45,24,27882
+Communauté de communes Cap Sizun - Pointe du Raz,242900629,CC,29,53,15568
+Communauté de communes Carmausin-Ségala,200040905,CC,81,76,30619
+Communauté de communes Carnelle Pays-de-France,200073013,CC,95,11,33684
+Communauté de communes Castelnaudary Lauragais Audois,200035855,CC,11,76,28709
+Communauté de communes Castillon/Pujols,243301454,CC,"24,33",75,19309
+Communauté de communes Causses Aigoual Cévennes,200034601,CC,30,76,5466
+Communauté de communes Causses et Vallée de la Dordogne,200066371,CC,46,76,46511
+Communauté de communes Caux - Austreberthe,247600646,CC,76,28,25458
+Communauté de communes Cazals-Salviac,200035327,CC,46,76,5504
+Communauté de communes Celavu-Prunelli,242000503,CC,2A,94,9360
+Communauté de communes Centre Morbihan Communauté,200096683,CC,56,53,27685
+Communauté de communes Centre Tarn,200034049,CC,81,76,11428
+Communauté de communes Chablis Villages et Terroirs,200067080,CC,89,27,14946
+Communauté de communes Chabris - Pays de Bazelle,243600202,CC,36,24,6264
+Communauté de communes Challans-Gois Communauté,200071629,CC,85,52,50972
+Communauté de communes Chalosse Tursan,200069649,CC,40,75,26706
+Communauté de communes Champagne Boischauts,200068880,CC,36,24,9895
+Communauté de communes Champagnole Nozeroy Jura,200069623,CC,39,27,23755
+Communauté de communes Champsaur-Valgaudemar,200068096,CC,05,93,11752
+Communauté de communes Charlieu-Belmont,200035202,CC,42,84,24339
+Communauté de communes Chavanon Combrailles et Volcans,200071215,CC,63,84,12989
+"Communauté de communes Chinon,Vienne et Loire",200043081,CC,37,24,24082
+Communauté de communes Châteaubriant-Derval,200072726,CC,44,52,45985
+Communauté de communes Cingal-Suisse Normande,200066710,CC,14,28,25195
+Communauté de communes Cluses-Arve et Montagnes,200033116,CC,74,84,47720
+Communauté de communes Coeur du Pays Haut,200070290,CC,"54,55",44,23664
+Communauté de communes Collines Isère Nord Communauté,243801255,CC,38,84,25670
+Communauté de communes Combrailles Sioule et Morge,200072098,CC,63,84,20037
+Communauté de communes Commentry Montmarault Néris Communauté,200071512,CC,03,84,26256
+Communauté de communes Communauté Bray-Eawy,200070068,CC,76,28,25745
+Communauté de communes Communauté Lesneven Côte des Légendes,242900793,CC,29,53,28251
+Communauté de communes Comtal Lot et Truyère,200067478,CC,12,76,20395
+Communauté de communes Conflent-Canigó,200049211,CC,66,76,21315
+Communauté de communes Conques-Marcillac,241200641,CC,12,76,12467
+Communauté de communes Convergence Garonne,200069581,CC,33,75,33255
+Communauté de communes Corbières Salanque Méditerranée,200070365,CC,"11,66",76,24689
+Communauté de communes Coteaux et Vallées des Luys,244000881,CC,40,75,7820
+Communauté de communes Couesnon Marches de Bretagne,200070688,CC,35,53,22405
+Communauté de communes Couserans-Pyrénées,200067940,CC,09,76,30855
+Communauté de communes Coutances Mer et Bocage,200067023,CC,50,28,49845
+Communauté de communes Creuse Grand Sud,200044014,CC,23,75,12059
+Communauté de communes Cère et Goul en Carladès,241501089,CC,15,84,5086
+Communauté de communes Côte Landes Nature,244000857,CC,40,75,12693
+Communauté de communes Côte Ouest Centre Manche,200067031,CC,50,28,22577
+Communauté de communes Côte d'Émeraude,243500725,CC,"22,35",53,29271
+Communauté de communes Côtes de Champagne et Val de Saulx,200067379,CC,51,44,11636
+Communauté de communes Côtes de Meuse Woëvre,200034874,CC,55,44,6158
+Communauté de communes Cœur Côte Fleurie,241400415,CC,14,28,21006
+Communauté de communes Cœur Haute Lande,200069656,CC,40,75,16448
+Communauté de communes Cœur d'Astarac en Gascogne,243200425,CC,32,76,8114
+Communauté de communes Cœur d'Ostrevent,245901152,CC,59,32,71293
+Communauté de communes Cœur d'Yvelines,247800618,CC,78,11,52156
+Communauté de communes Cœur de Beauce,200070159,CC,28,24,24721
+Communauté de communes Cœur de Berry,200070571,CC,18,24,7016
+Communauté de communes Cœur de Brenne,243600343,CC,36,24,4742
+Communauté de communes Cœur de Charente,200072023,CC,16,75,22276
+Communauté de communes Cœur de Chartreuse,200040111,CC,"38,73",84,17506
+Communauté de communes Cœur de France,200036135,CC,18,24,18585
+Communauté de communes Cœur de Garonne,200068815,CC,31,76,35690
+Communauté de communes Cœur de Loire,200067916,CC,58,27,25350
+Communauté de communes Cœur de Lozère,244800405,CC,48,76,16508
+Communauté de communes Cœur de Maurienne Arvan,200070464,CC,73,84,14871
+Communauté de communes Cœur de Nacre,241400860,CC,14,28,24470
+Communauté de communes Cœur de Saintonge,241700517,CC,17,75,18114
+Communauté de communes Cœur de Savoie,200041010,CC,73,84,38463
+Communauté de communes Cœur de Sologne,200000800,CC,41,24,10489
+Communauté de communes Cœur de Tarentaise,200023299,CC,73,84,9676
+Communauté de communes Cœur de l'Avesnois,200043263,CC,59,32,29618
+Communauté de communes Cœur du Perche,200068435,CC,61,28,11341
+Communauté de communes Cœur du Var,248300550,CC,83,93,45542
+Communauté de communes Cœur et Coteaux du Comminges,200072643,CC,31,76,45280
+Communauté de communes Decazeville Communauté,200067064,CC,12,76,18752
+Communauté de communes Dieulefit-Bourdeaux,242600492,CC,26,84,9900
+Communauté de communes Dombes Saône Vallée,200042497,CC,01,84,41413
+Communauté de communes Domfront Tinchebray Interco,200071520,CC,61,28,16183
+Communauté de communes Douarnenez Communauté,242900645,CC,29,53,18921
+Communauté de communes Dronne et Belle,200041572,CC,24,75,11539
+Communauté de communes Drôme Sud Provence,200042901,CC,26,84,44178
+Communauté de communes Dômes Sancy Artense,200069169,CC,63,84,13049
+Communauté de communes Enclave des Papes-Pays de Grignan,200040681,CC,"26,84","84,93",23333
+Communauté de communes Entr'Allier Besbre et Loire,200071470,CC,03,84,24927
+"Communauté de communes Entre Arroux,Loire et Somme",200070316,CC,71,27,22169
+Communauté de communes Entre Bièvre et Rhône,200085751,CC,38,84,70597
+Communauté de communes Entre Dore et Allier,246301097,CC,63,84,19847
+Communauté de communes Entre Juine et Renarde (CCEJR),249100553,CC,91,11,28147
+Communauté de communes Entre Saône et Grosne,247103765,CC,71,27,11340
+Communauté de communes Estuaire et Sillon,200072734,CC,44,52,41377
+Communauté de communes Falaises du Talou,247600729,CC,76,28,24182
+Communauté de communes Faucigny-Glières,200000172,CC,74,84,28631
+Communauté de communes FerCher,241800457,CC,18,24,11544
+Communauté de communes Fier et Usses,247400567,CC,74,84,16382
+Communauté de communes Flandre Lys,245900758,CC,"59,62",32,40508
+"Communauté de communes Forêts,Lacs,Terres en Champagne",241000223,CC,10,44,6996
+"Communauté de communes Forêts,Seine et Suzon",200039063,CC,21,27,7171
+Communauté de communes Fumel Vallée du Lot,200068930,CC,47,75,25088
+Communauté de communes Gally Mauldre,200034130,CC,78,11,23125
+Communauté de communes Gartempe - Saint-Pardoux,248719262,CC,87,75,5155
+Communauté de communes Giennoises,244500211,CC,45,24,24707
+Communauté de communes Gorges Causses Cévennes,200069151,CC,48,76,7202
+Communauté de communes Grand Lieu Communauté,244400438,CC,44,52,42317
+Communauté de communes Grand Orb communauté de communes en Languedoc,200042646,CC,34,76,20400
+Communauté de communes Grand Sud Tarn et Garonne,200066652,CC,82,76,43854
+Communauté de communes Grand-Figeac,200067361,CC,"12,46",76,45387
+Communauté de communes Gâtinais Val de Loing,200023919,CC,77,11,18744
+Communauté de communes Haut Chemin-Pays de Pange,200067957,CC,57,44,19823
+Communauté de communes Haut Limousin en Marche,200071942,CC,87,75,22993
+Communauté de communes Haut Nivernais-Val d'Yonne,200067429,CC,"58,89",27,12328
+Communauté de communes Haut Pays du Velay Communauté,244300307,CC,43,84,8160
+Communauté de communes Haut Val de Sèvre,200041994,CC,79,75,31269
+Communauté de communes Haut-Jura Arcade Communauté,243900479,CC,39,27,9488
+Communauté de communes Haut-Jura Saint-Claude,200026573,CC,39,27,20220
+Communauté de communes Haut-Léon Communauté,200067072,CC,29,53,32478
+Communauté de communes Haute Maurienne Vanoise,200070340,CC,73,84,8746
+Communauté de communes Haute Sarthe Alpes Mancelles,200072700,CC,72,52,23057
+Communauté de communes Haute-Corrèze Communauté,200066744,CC,"19,23",75,33249
+Communauté de communes Haute-Provence-Pays de Banon,200071025,CC,04,93,10108
+Communauté de communes Hautes Terres Communauté,200066637,CC,15,84,11582
+Communauté de communes Houve-Pays Boulageois,200067650,CC,57,44,23229
+Communauté de communes Inter-Caux-Vexin,200070449,CC,76,28,56668
+Communauté de communes Interco Normandie Sud Eure,200066462,CC,"27,28","24,28",38777
+Communauté de communes Intercom Bernay Terres de Normandie,200066413,CC,27,28,55523
+Communauté de communes Intercom de la Vire au Noireau,200068799,CC,14,28,47767
+Communauté de communes Isigny-Omaha Intercom,200066801,CC,14,28,26854
+Communauté de communes Isle Double Landais,200040384,CC,24,75,12617
+Communauté de communes Isle Vern Salembre en Périgord,200040095,CC,24,75,19168
+Communauté de communes Isle et Crempse en Périgord,200069094,CC,24,75,14694
+Communauté de communes Isle-Loue-Auvézère en Périgord,242401024,CC,24,75,13968
+Communauté de communes Jabron-Lure-Vançon-Durance,200071033,CC,"04,26","84,93",5500
+Communauté de communes Jalle-Eau-Bourde,243301165,CC,33,75,32543
+Communauté de communes Jura Nord,243900560,CC,39,27,11976
+Communauté de communes La Domitienne,243400488,CC,34,76,29520
+Communauté de communes La Grandvallière,243900610,CC,39,27,5570
+Communauté de communes La Rochefoucauld porte du Périgord,200068914,CC,16,75,22152
+Communauté de communes La Septaine,241800374,CC,18,24,11002
+Communauté de communes Lacs et Gorges du Verdon,200040210,CC,83,93,9255
+Communauté de communes Larzac et Vallées,241200906,CC,12,76,6781
+Communauté de communes Latitude Nord Gironde,243301181,CC,33,75,21624
+Communauté de communes Lavalette Tude Dronne,200070282,CC,16,75,17890
+Communauté de communes Le Dourdannais en Hurepoix (CCDH),249100595,CC,91,11,27410
+Communauté de communes Le Gesnois Bilurien,200072684,CC,72,52,30708
+Communauté de communes Le Grand Charolais,200071884,CC,"03,71","27,84",41221
+Communauté de communes Le Grand Ouest Toulousain,243100781,CC,31,76,49463
+Communauté de communes Le Grésivaudan,200018166,CC,38,84,105771
+Communauté de communes Le Tonnerrois en Bourgogne,200039642,CC,89,27,15649
+Communauté de communes Leff Armor Communauté,200069086,CC,22,53,32368
+Communauté de communes Les Avant-Monts,200071058,CC,34,76,28241
+Communauté de communes Les Balcons du Dauphiné,200068542,CC,38,84,79815
+Communauté de communes Les Bertranges,200068088,CC,"18,58","24,27",20027
+Communauté de communes Les Coteaux Bordelais,243301355,CC,33,75,21880
+Communauté de communes Les Portes Briardes entre Villes et Forêts,200023125,CC,77,11,46457
+Communauté de communes Les Portes de l'Ile de France,200071074,CC,78,11,23266
+Communauté de communes Les Rives de la Laurence,243301249,CC,33,75,29098
+Communauté de communes Les Trois Provinces,241800432,CC,18,24,5079
+Communauté de communes Les Vals du Dauphiné,200068567,CC,38,84,65629
+Communauté de communes Les Versants d'Aime,247300817,CC,73,84,9956
+Communauté de communes Levroux Boischaut Champagne,243600293,CC,36,24,6306
+Communauté de communes Lieuvin Pays d'Auge,200066017,CC,27,28,20707
+Communauté de communes Liffré-Cormier Communauté,243500774,CC,35,53,28177
+Communauté de communes Loches Sud Touraine,200071587,CC,37,24,52028
+Communauté de communes Lodévois et Larzac,200017341,CC,34,76,15203
+Communauté de communes Loir-Lucé-Bercé,200070373,CC,72,52,23927
+Communauté de communes Loire Layon Aubance,200071553,CC,49,52,58027
+Communauté de communes Loire et Allier,245801063,CC,58,27,5074
+Communauté de communes Loire et Semène,244301131,CC,43,84,20821
+Communauté de communes Lot et Tolzac,244701405,CC,47,75,7469
+Communauté de communes Loudéac Communauté - Bretagne Centre,200067460,CC,22,53,52946
+Communauté de communes Loue-Lison,200068070,CC,25,27,25907
+Communauté de communes Lyon Saint Exupéry en Dauphiné,243800935,CC,38,84,29888
+Communauté de communes Lyons Andelle,200070142,CC,27,28,20897
+Communauté de communes Mad et Moselle,200070738,CC,"54,57",44,19443
+Communauté de communes Maine Cœur de Sarthe,200068963,CC,72,52,22160
+Communauté de communes Maine Saosnois,200072676,CC,"61,72","28,52",28075
+Communauté de communes Marche Occitane - Val d'Anglin,200035137,CC,36,24,6659
+Communauté de communes Marche et Combraille en Aquitaine,200067593,CC,23,75,13331
+Communauté de communes Marches du Velay-Rochebaron,200073427,CC,43,84,32080
+Communauté de communes Maremne Adour Côte Sud,244000865,CC,40,75,71929
+Communauté de communes Maurienne Galibier,247300452,CC,73,84,5773
+Communauté de communes Mayenne Communauté,200055887,CC,53,52,37954
+Communauté de communes Mellois en Poitou,200069755,CC,79,75,47977
+Communauté de communes Meurthe Mortagne Moselle,200067643,CC,54,44,16749
+Communauté de communes Meuse Rognon,200069664,CC,52,44,10806
+Communauté de communes Midi Corrézien,200066769,CC,19,75,13364
+Communauté de communes Mirebellois et Fontenois,200072825,CC,21,27,12793
+Communauté de communes Mond'Arverne Communauté,200069177,CC,63,84,41566
+Communauté de communes Mont Lozère,200069128,CC,"30,48",76,5909
+Communauté de communes Montfort Communauté,243500550,CC,35,53,26837
+Communauté de communes Monts d'Arrée Communauté,200067197,CC,29,53,7953
+"Communauté de communes Monts,Rance et Rougier",200067163,CC,12,76,6503
+Communauté de communes Moret Seine et Loing,247700032,CC,77,11,40047
+Communauté de communes Morvan Sommets et Grands Lacs,200067890,CC,58,27,12705
+Communauté de communes Moselle et Madon,245400171,CC,54,44,28647
+Communauté de communes Mâconnais - Tournugeois,200069698,CC,71,27,16372
+Communauté de communes Méditerranée Porte des Maures,200027100,CC,83,93,46943
+Communauté de communes Médoc Atlantique,200070720,CC,33,75,27943
+Communauté de communes Médoc Cœur de Presqu'île,200069995,CC,33,75,31226
+Communauté de communes Médoc Estuaire,243301447,CC,33,75,30721
+Communauté de communes Médullienne,243301389,CC,33,75,22569
+Communauté de communes Mézenc-Loire-Meygal,200073401,CC,43,84,11642
+Communauté de communes Nebbiu - Conca d'Oro,200073120,CC,2B,94,7774
+Communauté de communes Neste Barousse,200070829,CC,65,76,7444
+Communauté de communes Nièvre et Somme,200071223,CC,80,32,28099
+Communauté de communes Norge et Tille,200069540,CC,21,27,16699
+Communauté de communes Normandie-Cabourg-Pays d'Auge,200065563,CC,14,28,31915
+Communauté de communes Océan Marais de Monts,248500258,CC,85,52,20192
+Communauté de communes Orne Lorraine Confluences,200070845,CC,54,44,53779
+Communauté de communes Orée de Bercé - Belinois,247200447,CC,72,52,19806
+Communauté de communes Osartis Marquion,200044048,CC,62,32,43198
+Communauté de communes Ouche et Montagne,200039055,CC,21,27,11319
+Communauté de communes Ouest Aveyron Communauté,200069383,CC,"12,46",76,28332
+Communauté de communes Ouest Limousin,200066520,CC,87,75,11456
+Communauté de communes Pasquale Paoli,200073138,CC,2B,94,6173
+Communauté de communes Pays Forcalquier et Montagne de Lure,240400440,CC,04,93,10181
+Communauté de communes Pays Fort Sancerrois Val de Loire,200069227,CC,18,24,18521
+Communauté de communes Pays Ségali Communauté,200068831,CC,12,76,18768
+Communauté de communes Pays d'Apt-Luberon,200040624,CC,"04,84",93,29172
+Communauté de communes Pays d'Opale,200072478,CC,62,32,25550
+Communauté de communes Pays d'Orange en Provence,248400236,CC,84,93,45767
+Communauté de communes Pays d'Orthe et Arrigans,200069417,CC,40,75,24843
+Communauté de communes Pays d'Uzès,200034379,CC,30,76,31714
+Communauté de communes Pays d'Évian Vallée d'Abondance,200071967,CC,74,84,43697
+Communauté de communes Pays de Blain Communauté,244400453,CC,44,52,16934
+Communauté de communes Pays de Chantonnay,248500340,CC,85,52,23925
+Communauté de communes Pays de Châteaugiron Communauté,243500659,CC,35,53,28031
+Communauté de communes Pays de Fontenay-Vendée,200071934,CC,85,52,36596
+Communauté de communes Pays de Montereau,247700107,CC,77,11,45902
+Communauté de communes Pays de Nay,246401756,CC,"64,65","75,76",29936
+Communauté de communes Pays de Nemours,200023240,CC,77,11,30167
+Communauté de communes Pays de Nexon Monts de Chalus,200070506,CC,87,75,13223
+Communauté de communes Pays de Nérondes,200007177,CC,18,24,4835
+Communauté de communes Pays des Vans en Cévennes,200039832,CC,07,84,9626
+Communauté de communes Pays du Mont-Blanc,200034882,CC,74,84,46776
+Communauté de communes Perthois-Bocage et Der,200042992,CC,51,44,5675
+Communauté de communes Picardie des Châteaux,200071769,CC,02,32,17242
+Communauté de communes Piège Lauragais Malepère,200035707,CC,11,76,16776
+Communauté de communes Plaine Limagne,200071199,CC,63,84,21767
+Communauté de communes Plaines et Monts de France,200033090,CC,77,11,25788
+Communauté de communes Plateau de Caux,200069847,CC,76,28,21583
+Communauté de communes Pleyben-Châteaulin-Porzay,200067247,CC,29,53,23783
+Communauté de communes Poher communauté,242900744,CC,"22,29",53,16075
+Communauté de communes Ponthieu-Marquenterre,200070936,CC,80,32,33459
+Communauté de communes Pontivy Communauté,245614433,CC,"22,56",53,47825
+Communauté de communes Porte Océane du Limousin,200059400,CC,87,75,26203
+Communauté de communes Porte de DrômArdèche,200040491,CC,"07,26",84,49388
+Communauté de communes Porte de Maurienne,247300676,CC,73,84,7115
+Communauté de communes Porte du Jura,200072056,CC,39,27,10804
+Communauté de communes Portes de la Creuse en Marche,200041556,CC,23,75,6692
+Communauté de communes Portes du Berry entre Loire et Val d'Aubois,200011781,CC,18,24,9638
+Communauté de communes Presqu'île de Crozon-Aulne maritime,200066868,CC,29,53,23109
+Communauté de communes Provence Verdon,200040202,CC,83,93,23014
+Communauté de communes Pré-Bocage Intercom,200069524,CC,14,28,25162
+Communauté de communes Pyrénées Audoises,200043776,CC,11,76,13866
+Communauté de communes Pyrénées Cerdagne,246600399,CC,66,76,9045
+Communauté de communes Pyrénées Haut Garonnaises,200072635,CC,31,76,16067
+Communauté de communes Pyrénées Vallées des Gaves,200070811,CC,65,76,15698
+Communauté de communes Pyrénées catalanes,246600464,CC,66,76,6176
+Communauté de communes Périgord-Limousin,242400752,CC,24,75,14430
+Communauté de communes Pévèle-Carembault,200041960,CC,59,32,100011
+Communauté de communes Quercy - Bouriane,244600482,CC,46,76,10331
+Communauté de communes Quercy Vert-Aveyron,200066884,CC,82,76,23179
+Communauté de communes Questembert Communauté,245614383,CC,56,53,24807
+Communauté de communes Rahin et Chérimont,247000821,CC,70,27,11930
+Communauté de communes Randon - Margeride,200069102,CC,48,76,5370
+Communauté de communes Retz-en-Valois,200071991,CC,02,32,29902
+"Communauté de communes Rhony,Vistre,Vidourle",243000569,CC,30,76,28808
+Communauté de communes Rhône Crussol,200041366,CC,07,84,35375
+Communauté de communes Rhône Lez Provence,200000628,CC,84,93,24366
+Communauté de communes Rives de Moselle,200039949,CC,57,44,53748
+Communauté de communes Rives de Saône,242101509,CC,21,27,20851
+Communauté de communes Rives de l'Ain - Pays du Cerdon,200029999,CC,01,84,14992
+Communauté de communes Roche aux Fées Communauté,243500634,CC,35,53,27465
+Communauté de communes Roi Morvan Communauté,245614417,CC,56,53,25623
+Communauté de communes Roumois Seine,200066405,CC,"27,76",28,42389
+Communauté de communes Roussillon-Conflent,246600415,CC,66,76,19139
+Communauté de communes Rumilly Terre de Savoie,247400740,CC,74,84,33627
+"Communauté de communes Région Lézignanaise,Corbières et Minervois",200035863,CC,11,76,33753
+"Communauté de communes Saint Affricain,Roquefort,Sept Vallons",200067155,CC,12,76,14313
+Communauté de communes Saint Cyr Mère Boitier entre Charolais et Mâconnais,200071645,CC,71,27,8233
+Communauté de communes Saint-Marcellin Vercors Isère Communauté,200070431,CC,38,84,45873
+Communauté de communes Saint-Pourçain Sioule Limagne,200071389,CC,03,84,34634
+Communauté de communes Sarlat-Périgord Noir,200027217,CC,24,75,16719
+Communauté de communes Sarrebourg Moselle Sud,200068146,CC,57,44,46377
+Communauté de communes Sauer-Pechelbronn,200013050,CC,67,44,17841
+Communauté de communes Sauldre et Sologne,200000933,CC,18,24,14672
+Communauté de communes Saulieu-Morvan,242101442,CC,21,27,5416
+Communauté de communes Sausseron Impressionnistes,249500430,CC,95,11,19341
+Communauté de communes Saône Doubs Bresse,200040038,CC,71,27,12359
+Communauté de communes Saône-Beaujolais,200067817,CC,69,84,46073
+Communauté de communes Seine et Aube,200070126,CC,10,44,10364
+Communauté de communes Senlis Sud Oise,200066975,CC,60,32,25727
+Communauté de communes Serein et Armance,200067304,CC,89,27,23968
+Communauté de communes Serre-Ponçon,200067742,CC,"04,05",93,17483
+Communauté de communes Serre-Ponçon Val d'Avance,200067320,CC,"04,05",93,7995
+Communauté de communes Seulles Terre et Mer,200069516,CC,14,28,17760
+Communauté de communes Sidobre Vals et Plateaux,200066561,CC,81,76,12676
+Communauté de communes Somme Sud-Ouest,200071181,CC,80,32,38920
+Communauté de communes Spelunca-Liamone,200067049,CC,2A,94,7846
+Communauté de communes Sud Alsace Largue,200066033,CC,68,44,22737
+Communauté de communes Sud Côte Chalonnaise,247104094,CC,71,27,11829
+Communauté de communes Sud Nivernais,200067700,CC,58,27,20499
+Communauté de communes Sud Retz Atlantique,200071546,CC,44,52,25944
+Communauté de communes Sud Sarthe,200073112,CC,72,52,22963
+Communauté de communes Sud Vendée Littoral,200073260,CC,85,52,56646
+Communauté de communes Sud-Hérault,200042653,CC,34,76,18450
+Communauté de communes Sud-Roussillon,246600282,CC,66,76,25011
+Communauté de communes Sumène - Artense,241501055,CC,15,84,8380
+Communauté de communes Sundgau,200066041,CC,68,44,48759
+Communauté de communes Sèvre et Loire,200067866,CC,44,52,50696
+Communauté de communes Tannay-Brinon-Corbigny,200067692,CC,58,27,9762
+Communauté de communes Tarn-Agout,200034023,CC,"31,81",76,30603
+Communauté de communes Terrassonnais Haut Périgord Noir,200041150,CC,24,75,22538
+Communauté de communes Terre Lorraine du Longuyonnais,200043693,CC,54,44,15637
+Communauté de communes Terre d'Auge,241400878,CC,14,28,20024
+Communauté de communes Terre d'Eau,200068682,CC,88,44,17977
+Communauté de communes Terre d'Émeraude Communauté,200090579,CC,39,27,25247
+Communauté de communes Terre de Camargue,243000650,CC,30,76,20931
+Communauté de communes Terre de Picardie,200070928,CC,80,32,18259
+Communauté de communes Terres Touloises,200070563,CC,54,44,45338
+Communauté de communes Terres d'Argentan Interco,200068450,CC,61,28,34111
+Communauté de communes Terres de Bresse,200071538,CC,71,27,22998
+Communauté de communes Terres de Chalosse,200069631,CC,40,75,18725
+Communauté de communes Terres de Perche,200070167,CC,28,24,14455
+Communauté de communes Terres de Saône,200041879,CC,70,27,13392
+Communauté de communes Terres des Confluences,200066322,CC,82,76,43176
+Communauté de communes Terres du Haut Berry,200066330,CC,18,24,26575
+Communauté de communes Territoriale Sud-Luberon,248400285,CC,84,93,26124
+Communauté de communes Terroir de Caux,200068534,CC,76,28,38569
+Communauté de communes Thelloise,200067973,CC,60,32,62528
+Communauté de communes Thiers Dore et Montagne,200070712,CC,63,84,37613
+Communauté de communes Thiérache Sambre et Oise,200071983,CC,02,32,16804
+Communauté de communes Thoré Montagne Noire,248100745,CC,81,76,5137
+Communauté de communes Tille et Venelle,200070910,CC,21,27,5019
+Communauté de communes Touraine Ouest Val de Loire,200072981,CC,37,24,33635
+Communauté de communes Touraine Val de Vienne,200072668,CC,37,24,25266
+Communauté de communes Touraine Vallée de l'Indre,200072650,CC,37,24,55033
+Communauté de communes Touraine-Est Vallées,200073161,CC,37,24,41414
+Communauté de communes Usses et Rhône,200070852,CC,"01,74",84,21628
+Communauté de communes Vaison Ventoux,248400335,CC,"26,84","84,93",17069
+Communauté de communes Val 81,248100497,CC,81,76,5657
+Communauté de communes Val Briard,200072874,CC,77,11,29061
+Communauté de communes Val Eyrieux,200041465,CC,07,84,12763
+Communauté de communes Val Guiers,247300528,CC,73,84,12584
+Communauté de communes Val Vanoise,200040798,CC,73,84,9300
+Communauté de communes Val d'Ille-Aubigné,243500667,CC,35,53,39241
+Communauté de communes Val de Charente,200043016,CC,16,75,14088
+Communauté de communes Val de Gers,200072320,CC,32,76,10438
+Communauté de communes Val de Gray,200036549,CC,70,27,21040
+Communauté de communes Val de Gâtine,200069748,CC,79,75,22034
+Communauté de communes Val de Ligne,240700617,CC,07,84,6280
+Communauté de communes Val de Meuse - Voie Sacrée,200066165,CC,55,44,9125
+Communauté de communes Val de Saône Centre,200070118,CC,01,84,21430
+Communauté de communes Val de l'Indre - Brenne,243600301,CC,36,24,13622
+Communauté de communes Val ès Dunes,200065589,CC,14,28,19074
+Communauté de communes Val'Aïgo,243100773,CC,31,76,18628
+Communauté de communes Val-de-Cher-Controis,200072064,CC,41,24,48057
+Communauté de communes Vallons de Haute-Bretagne Communauté,200043990,CC,35,53,45492
+Communauté de communes Vallée de l'Hérault,243400694,CC,34,76,42053
+Communauté de communes Vallée de l'Ubaye - Serre-Ponçon,200072304,CC,04,93,7922
+Communauté de communes Vallée de la Dordogne et Forêt Bessède,200041051,CC,24,75,9131
+Communauté de communes Vallée des Baux-Alpilles (CC VBA),241300375,CC,13,93,28219
+Communauté de communes Vallées de l'Orne et de l'Odon,200066728,CC,14,28,26560
+Communauté de communes Vallées et Plateau d'Ardenne,200067759,CC,08,44,24680
+Communauté de communes Vals de Saintonge Communauté,200041689,CC,17,75,53530
+Communauté de communes Vendée Grand Littoral,200071900,CC,85,52,36045
+"Communauté de communes Vendée,Sèvre,Autise",248500563,CC,85,52,16526
+Communauté de communes Ventoux Sud,200035723,CC,"26,84","84,93",9742
+Communauté de communes Vexin Centre,200035970,CC,95,11,25262
+Communauté de communes Vienne et Gartempe,200070043,CC,86,75,39956
+Communauté de communes Vierzon-Sologne-Berry,200090561,CC,18,24,39042
+Communauté de communes Vézère-Monédières-Millesources,200066645,CC,19,75,5864
+Communauté de communes Xaintrie Val'Dordogne,200066751,CC,19,75,11495
+Communauté de communes Yonne Nord,248900896,CC,89,27,24800
+Communauté de communes Yvetot Normandie,247600620,CC,76,28,26935
+Communauté de communes d'Aire-sur-l'Adour,200030435,CC,"32,40","75,76",13564
+"Communauté de communes d'Arcis,Mailly,Ramerupt",200071777,CC,10,44,12034
+Communauté de communes d'Auberive Vingeanne et Montsaugeonnais,200027308,CC,52,44,8276
+Communauté de communes d'Erdre et Gesvres,244400503,CC,44,52,68269
+Communauté de communes de Bayeux Intercom,241400555,CC,14,28,30572
+Communauté de communes de Belle-Île-en-Mer,245600465,CC,56,53,5688
+Communauté de communes de Bièvre Est,243801073,CC,38,84,23331
+Communauté de communes de Blaye,200023794,CC,33,75,20761
+Communauté de communes de Bénévent Grand Bourg,242320000,CC,23,75,6943
+Communauté de communes de Calvi Balagne,242020105,CC,2B,94,12874
+Communauté de communes de Cattenom et Environs,245700695,CC,57,44,28149
+Communauté de communes de Charente Limousine,200072049,CC,16,75,36185
+Communauté de communes de Commercy - Void - Vaucouleurs,200066157,CC,55,44,22534
+Communauté de communes de Cèze Cévennes,200035129,CC,"07,30","76,84",19466
+Communauté de communes de Damvillers Spincourt,200066173,CC,55,44,8294
+Communauté de communes de Desvres-Samer,200018083,CC,62,32,23824
+Communauté de communes de Domme-Villefranche du Périgord,200041440,CC,24,75,8683
+Communauté de communes de Fium'Orbu Castellu,200033827,CC,2B,94,13396
+Communauté de communes de Forez-Est,200065894,CC,42,84,65592
+Communauté de communes de Freyming-Merlebach,245700398,CC,57,44,31960
+Communauté de communes de Gevrey-Chambertin et de Nuits-Saint-Georges,200070894,CC,21,27,30470
+"Communauté de communes de Granville,Terre et Mer",200042604,CC,50,28,46383
+Communauté de communes de Gâtine-Racan,200073237,CC,37,24,22611
+Communauté de communes de Gémozac et de la Saintonge Viticole,241700632,CC,17,75,15019
+Communauté de communes de Hanau-La Petite Pierre,200067783,CC,67,44,26698
+Communauté de communes de Haute Cornouaille,242900561,CC,29,53,15206
+Communauté de communes de Haute-Tarentaise,247300254,CC,73,84,16037
+Communauté de communes de Lacq-Orthez,200039204,CC,64,75,54650
+Communauté de communes de Londinières,247600604,CC,76,28,5271
+Communauté de communes de Lévézou Pareloup,241200765,CC,12,76,5455
+Communauté de communes de Marana-Golo,200036499,CC,2B,94,25193
+Communauté de communes de Marcigny,247100639,CC,71,27,6231
+Communauté de communes de Marie-Galante,249710047,CC,971,01,10600
+Communauté de communes de Millau Grands Causses,241200567,CC,"12,48",76,30120
+Communauté de communes de Mimizan,244000543,CC,40,75,12995
+Communauté de communes de Mirecourt Dompaire,200068369,CC,88,44,19396
+Communauté de communes de Miribel et du Plateau,240100800,CC,01,84,25209
+Communauté de communes de Montaigne Montravel et Gurson,200034197,CC,24,75,12109
+Communauté de communes de Montbenoît,242500320,CC,25,27,8352
+Communauté de communes de Montesquieu,243301264,CC,33,75,47795
+Communauté de communes de Noblat,248719361,CC,87,75,11964
+Communauté de communes de Nozay,244400537,CC,44,52,16473
+Communauté de communes de Parthenay-Gâtine,200041333,CC,79,75,38013
+Communauté de communes de Petite Camargue,243000593,CC,30,76,28241
+Communauté de communes de Petite-Terre,200050532,CC,976,06,30039
+Communauté de communes de Pont-Audemer / Val de Risle,200065787,CC,27,28,33395
+Communauté de communes de Portes Sud Périgord,200040889,CC,24,75,8572
+Communauté de communes de Pouilly-en-Auxois/Bligny-sur-Ouche,200071207,CC,21,27,9002
+Communauté de communes de Puisaye-Forterre,200067130,CC,"58,89",27,34367
+Communauté de communes de Saint-Méen Montauban,200038990,CC,35,53,27754
+Communauté de communes de Seille et Grand Couronné,200070589,CC,54,44,19167
+Communauté de communes de Semur-en-Brionnais,247103864,CC,71,27,5332
+Communauté de communes de Sélestat,246700967,CC,67,44,37616
+Communauté de communes de Sézanne-Sud Ouest Marnais,200066835,CC,51,44,21554
+Communauté de communes de Thann-Cernay,200036465,CC,68,44,38412
+Communauté de communes de Vendeuvre-Soulaines,200066892,CC,10,44,7606
+Communauté de communes de Ventadour - Egletons - Monédières,241900133,CC,19,75,11056
+Communauté de communes de Vezouze en Piémont,200069433,CC,54,44,11793
+Communauté de communes de Vie et Boulogne,200072882,CC,85,52,46780
+Communauté de communes de Villedieu Intercom,200043354,CC,50,28,15968
+"Communauté de communes de Vitry,Champagne et Der",200034718,CC,51,44,24070
+Communauté de communes de Yenne,247300262,CC,73,84,7495
+Communauté de communes de l'Agglomération Migennoise,248900383,CC,89,27,14879
+Communauté de communes de l'Aillantais en Bourgogne,248900524,CC,89,27,10432
+Communauté de communes de l'Aire Cantilienne,246000764,CC,60,32,46066
+Communauté de communes de l'Aire à l'Argonne,200066140,CC,55,44,6557
+Communauté de communes de l'Alsace Bossue,200067841,CC,67,44,24602
+Communauté de communes de l'Alta Rocca,242000495,CC,2A,94,8740
+Communauté de communes de l'Arc Mosellan,245701354,CC,57,44,36175
+Communauté de communes de l'Argonne Ardennaise,240800920,CC,08,44,17221
+Communauté de communes de l'Argonne Champenoise,200042703,CC,51,44,12080
+Communauté de communes de l'Ernée,245300355,CC,53,52,20900
+Communauté de communes de l'Est Guyanais,249730052,CC,973,03,8689
+Communauté de communes de l'Est Lyonnais (CCEL),246900575,CC,69,84,42936
+Communauté de communes de l'Est de la Somme,200070985,CC,"02,80",32,20143
+Communauté de communes de l'Estuaire,243300811,CC,33,75,16127
+Communauté de communes de l'Oisans,243800745,CC,38,84,10622
+Communauté de communes de l'Oise Picarde,200068005,CC,60,32,21315
+Communauté de communes de l'Oriente,200015162,CC,2B,94,6132
+Communauté de communes de l'Orvin et de l'Ardusson,241000488,CC,10,44,8592
+Communauté de communes de l'Ouest Guyanais,249730037,CC,973,03,98174
+Communauté de communes de l'Ouest Vosgien,200068559,CC,"52,88",44,23776
+Communauté de communes de l'Oust à Brocéliande,200066785,CC,56,53,40513
+Communauté de communes de l'Outre-Forêt,200040178,CC,67,44,16401
+Communauté de communes de l'Île d'Oléron,241700624,CC,17,75,22619
+Communauté de communes de l'Île de Noirmoutier,248500191,CC,85,52,9429
+Communauté de communes de l'Île de Ré,241700459,CC,17,75,18014
+Communauté de communes de l'Île-Rousse - Balagne,200073104,CC,2B,94,11078
+Communauté de communes de la Baie du Cotentin,200042729,CC,50,28,23444
+Communauté de communes de la Basse-Zorn,246700843,CC,67,44,17887
+Communauté de communes de la Beauce Loirétaine,200035764,CC,45,24,17218
+Communauté de communes de la Brie Champenoise,245100888,CC,51,44,7680
+Communauté de communes de la Castagniccia-Casinca,200073252,CC,2B,94,13013
+Communauté de communes de la Champagne Conlinoise et du Pays de Sillé,200072718,CC,72,52,18420
+Communauté de communes de la Champagne Picarde,240200576,CC,02,32,21323
+Communauté de communes de la Châtaigneraie Cantalienne,200066678,CC,15,84,21689
+Communauté de communes de la Châtre et Sainte-Sévère,243600350,CC,36,24,16505
+"Communauté de communes de la Cléry,du Betz et de l'Ouanne",200067668,CC,"45,89","24,27",20344
+Communauté de communes de la Costa Verde,200034205,CC,2B,94,10943
+Communauté de communes de la Côte d'Albâtre,200069839,CC,76,28,28274
+Communauté de communes de la Côtière à Montluel,240100610,CC,01,84,25513
+Communauté de communes de la Dombes,200069193,CC,01,84,40889
+Communauté de communes de la Forêt,244500484,CC,45,24,17875
+Communauté de communes de la Gascogne Toulousaine,200023620,CC,32,76,17205
+Communauté de communes de la Grande Vallée de la Marne,245100615,CC,51,44,14572
+Communauté de communes de la Haute Ariège,200066363,CC,09,76,7350
+Communauté de communes de la Haute Comté,200041721,CC,70,27,17419
+Communauté de communes de la Haute Saintonge,200041523,CC,17,75,70297
+Communauté de communes de la Haute Somme (Combles - Péronne - Roisel),200037059,CC,80,32,27103
+Communauté de communes de la Haute Vallée de Chevreuse,200033173,CC,78,11,25677
+Communauté de communes de la Haute-Bigorre,246500482,CC,65,76,17005
+Communauté de communes de la Lomagne Gersoise,243200391,CC,32,76,19953
+Communauté de communes de la Lomagne Tarn-et-Garonnaise,248200065,CC,82,76,10349
+Communauté de communes de la Marche Berrichonne,200007052,CC,36,24,5622
+Communauté de communes de la Matheysine,200040657,CC,38,84,19450
+Communauté de communes de la Moivre à la Coole,200043438,CC,51,44,9919
+Communauté de communes de la Montagne Noire,200042463,CC,11,76,6032
+Communauté de communes de la Montagne d'Ardèche,200072007,CC,07,84,4912
+Communauté de communes de la Mossig et du Vignoble,200068864,CC,67,44,25136
+Communauté de communes de la Muse et des Raspes du Tarn,241200914,CC,12,76,5533
+Communauté de communes de la Picardie Verte,246000848,CC,60,32,32917
+Communauté de communes de la Pieve de l'Ornano et du Taravo,200038958,CC,2A,94,13358
+Communauté de communes de la Plaine Dijonnaise,200000925,CC,21,27,22508
+Communauté de communes de la Plaine Jurassienne,243901089,CC,39,27,9235
+Communauté de communes de la Plaine d'Estrées,246000897,CC,60,32,18634
+Communauté de communes de la Plaine de l'Ain,240100883,CC,01,84,83033
+Communauté de communes de la Plaine du Nord Loiret,244500542,CC,45,24,6923
+Communauté de communes de la Plaine du Rhin,200041283,CC,67,44,18605
+Communauté de communes de la Porte des Vosges Méridionales,200068377,CC,88,44,29983
+Communauté de communes de la Région d'Audruicq,246200844,CC,62,32,28445
+Communauté de communes de la Région de Bar-sur-Aube,241000405,CC,10,44,10945
+Communauté de communes de la Région de Guebwiller,246800569,CC,68,44,38987
+Communauté de communes de la Région de Molsheim-Mutzig,246701064,CC,67,44,41381
+Communauté de communes de la Région de Rambervillers,200005957,CC,88,44,13249
+Communauté de communes de la Région de Suippes,200042620,CC,51,44,8022
+Communauté de communes de la Sologne des Rivières,244100806,CC,41,24,10621
+Communauté de communes de la Sologne des Étangs,244100780,CC,41,24,8768
+Communauté de communes de la Station des Rousses-Haut Jura,243900354,CC,39,27,7383
+Communauté de communes de la Tenarèze,243200417,CC,32,76,14734
+Communauté de communes de la Terre des Deux Caps,246200380,CC,62,32,22673
+Communauté de communes de la Thiérache du Centre,240200444,CC,02,32,26850
+Communauté de communes de la Vallée Verte,247400047,CC,74,84,8513
+Communauté de communes de la Vallée d'Ossau,246400337,CC,64,75,9899
+Communauté de communes de la Vallée de Chamonix-Mont-Blanc,200023372,CC,74,84,13945
+Communauté de communes de la Vallée de Kaysersberg,246800551,CC,68,44,16420
+Communauté de communes de la Vallée de Munster,246800585,CC,68,44,16545
+Communauté de communes de la Vallée de Saint-Amarin,246800205,CC,68,44,12301
+Communauté de communes de la Vallée de Villé,246700777,CC,67,44,10972
+Communauté de communes de la Vallée de l'Homme,200041168,CC,24,75,16148
+Communauté de communes de la Vallée de l'Oise et des Trois Forêts,249500455,CC,95,11,39517
+Communauté de communes de la Vallée de la Bruche,246700306,CC,67,44,20936
+Communauté de communes de la Vallée de la Doller et du Soultzbach,246800676,CC,68,44,16259
+Communauté de communes de la Vallée de la Haute Sarthe,200035103,CC,61,28,7645
+Communauté de communes de la Vallée du Gapeau,248300410,CC,83,93,33046
+Communauté de communes de la Vallée du Garon (CCVG),246900757,CC,69,84,32888
+Communauté de communes de la Vallée du Lot et du Vignoble,244600433,CC,46,76,14759
+Communauté de communes de la Vanne et du Pays d'Othe,248900664,CC,89,27,8634
+Communauté de communes de la Veyle,200070555,CC,01,84,23713
+Communauté de communes des 1000 étangs,247000854,CC,70,27,8722
+Communauté de communes des 4 rivières,200069730,CC,"27,76",28,29551
+Communauté de communes des 4B Sud Charente,200029734,CC,16,75,20439
+Communauté de communes des 7 Vallées,200044030,CC,62,32,29950
+"Communauté de communes des Albères,de la Côte Vermeille et de l'Illibéris",200043602,CC,66,76,58147
+Communauté de communes des Aspres,246600449,CC,66,76,23076
+Communauté de communes des Ballons des Hautes-Vosges,200033868,CC,88,44,15070
+Communauté de communes des Baronnies en Drôme Provençale,200068229,CC,26,84,21332
+Communauté de communes des Bastides Dordogne-Périgord,200034833,CC,24,75,18950
+Communauté de communes des Bastides en Haut Agenais Périgord,200036523,CC,47,75,17349
+Communauté de communes des Campagnes de l'Artois,200069482,CC,62,32,34069
+Communauté de communes des Causses à l'Aubrac,200068484,CC,12,76,14971
+Communauté de communes des Collines du Perche,244100293,CC,41,24,6043
+Communauté de communes des Collines du Perche Normand,200071504,CC,61,28,12220
+Communauté de communes des Combes,247000367,CC,70,27,7667
+Communauté de communes des Coteaux Arrats Gimone,200042372,CC,32,76,11013
+Communauté de communes des Coteaux Bellevue,243100815,CC,31,76,21457
+Communauté de communes des Coteaux du Girou,243100732,CC,31,76,23337
+Communauté de communes des Coteaux du Val d'Arros,200070803,CC,65,76,11329
+Communauté de communes des Coteaux et Landes de Gascogne,244701355,CC,47,75,12648
+Communauté de communes des Coëvrons,200033298,CC,53,52,27460
+Communauté de communes des Crêtes Préardennaises,240800862,CC,08,44,22138
+Communauté de communes des Cévennes Gangeoises et Suménoises,243400736,CC,"30,34",76,13264
+Communauté de communes des Cévennes au Mont Lozère,200069136,CC,48,76,5239
+Communauté de communes des Deux Morin,200072544,CC,77,11,26826
+Communauté de communes des Deux Rives,248200016,CC,"32,47,82","75,76",19316
+Communauté de communes des Deux Vallées,246000772,CC,60,32,23157
+Communauté de communes des Deux Vallées,249100157,CC,91,11,18884
+Communauté de communes des Deux Vallées Vertes,200068294,CC,25,27,16021
+Communauté de communes des Forêts du Perche,200069912,CC,28,24,7793
+Communauté de communes des Gorges de l'Ardèche,200039808,CC,07,84,15864
+Communauté de communes des Grands Lacs,244000873,CC,40,75,32299
+Communauté de communes des Hautes Terres de l'Aubrac,200069144,CC,48,76,5216
+Communauté de communes des Hauts de Flandre,200040954,CC,59,32,54594
+Communauté de communes des Hauts du Perche,200068856,CC,61,28,8070
+Communauté de communes des Hauts du Val de Saône,200036150,CC,70,27,8544
+Communauté de communes des Hauts-Tolosans,200071314,CC,31,76,36219
+Communauté de communes des Lacs de Champagne,200040137,CC,10,44,9248
+Communauté de communes des Lacs et Montagnes du Haut-Doubs,200069565,CC,25,27,16937
+Communauté de communes des Landes d'Armagnac,200035541,CC,40,75,11145
+Communauté de communes des Lisières de l'Oise,246000749,CC,60,32,16546
+Communauté de communes des Loges,244500427,CC,45,24,43970
+Communauté de communes des Luys en Béarn,200067239,CC,64,75,29965
+Communauté de communes des Montagnes du Giffre,200034098,CC,74,84,12434
+Communauté de communes des Monts d'Alban et du Villefranchois,200034031,CC,81,76,6498
+Communauté de communes des Monts de Gy,247000698,CC,70,27,6288
+Communauté de communes des Monts de Lacaune et de la Montagne du Haut Languedoc,200066553,CC,"34,81",76,8164
+Communauté de communes des Monts du Lyonnais,200066587,CC,"42,69",84,36139
+Communauté de communes des Monts du Pilat,244200622,CC,42,84,15849
+Communauté de communes des Pays d'Oise et d'Halatte,246000921,CC,60,32,34792
+Communauté de communes des Pays de Cayres et de Pradelles,244301123,CC,43,84,5269
+Communauté de communes des Pays de L'Aigle,200068468,CC,61,28,25828
+Communauté de communes des Pays du Sel et du Vermois,245400189,CC,54,44,29257
+Communauté de communes des Paysages de la Champagne,200066850,CC,51,44,21165
+Communauté de communes des Portes Euréliennes d'Île-de-France,200069953,CC,28,24,49434
+Communauté de communes des Portes d'Ariège Pyrénées,200066231,CC,09,76,41529
+Communauté de communes des Portes de Meuse,200066108,CC,55,44,16505
+Communauté de communes des Portes de Romilly-sur-Seine,200000545,CC,10,44,19251
+Communauté de communes des Portes de Rosheim,246700744,CC,67,44,18576
+Communauté de communes des Portes de Sologne,200005932,CC,45,24,15881
+Communauté de communes des Portes de Vassivière,248719353,CC,87,75,5757
+Communauté de communes des Portes de l'Entre-Deux-Mers,243301439,CC,33,75,22746
+Communauté de communes des Portes de la Thiérache,240200634,CC,02,32,6848
+Communauté de communes des Portes du Haut-Doubs,242504181,CC,25,27,27418
+Communauté de communes des Portes du Luxembourg,240800847,CC,08,44,19948
+Communauté de communes des Quatre Rivières,247000623,CC,70,27,9682
+Communauté de communes des Quatre Rivières,247400666,CC,74,84,20337
+Communauté de communes des Quatre Vallées,244500419,CC,45,24,17474
+Communauté de communes des Rives du Haut Allier,200073393,CC,43,84,16968
+Communauté de communes des Sablons,246000582,CC,60,32,39033
+Communauté de communes des Savanes,200027548,CC,973,03,29690
+Communauté de communes des Savoir-Faire,200070332,CC,"52,70","27,44",15457
+Communauté de communes des Sources de l'Orne,200035111,CC,61,28,12534
+Communauté de communes des Sources du Lac d'Annecy,247400773,CC,74,84,15672
+Communauté de communes des Sucs,244301016,CC,43,84,18884
+Communauté de communes des Terres d'Apcher-Margeride-Aubrac,200069185,CC,48,76,11346
+Communauté de communes des Terres d'Auxois,200071017,CC,21,27,16211
+Communauté de communes des Terres du Lauragais,200071298,CC,31,76,42695
+Communauté de communes des Terres du Val de Loire,200070183,CC,"41,45",24,50730
+Communauté de communes des Trois Forêts,245200597,CC,52,44,7479
+Communauté de communes des Trois Rivières,240200600,CC,02,32,21142
+Communauté de communes des Vallons du Lyonnais (CCVL),246900724,CC,69,84,32181
+Communauté de communes des Vallées d'Aigueblanche,247300015,CC,73,84,7297
+Communauté de communes des Vallées d'Auge et du Merlerault,200069458,CC,61,28,14552
+Communauté de communes des Vallées de Thônes,247400617,CC,74,84,19296
+Communauté de communes des Vallées de la Braye et de l'Anille,200072692,CC,72,52,15309
+Communauté de communes des Vallées de la Tille et de l'Ignon,242100154,CC,21,27,13911
+Communauté de communes des Vallées du Clain,200043628,CC,86,75,27554
+Communauté de communes des Vallées du Haut-Anjou,200071868,CC,49,52,36943
+Communauté de communes des Vals d'Aix et Isable,244200614,CC,42,84,6045
+Communauté de communes des Villes Sœurs,247600588,CC,"76,80","28,32",36627
+Communauté de communes des Vosges côté Sud Ouest,200068773,CC,88,44,12021
+Communauté de communes des Vosges du Sud,200069060,CC,90,27,15463
+Communauté de communes du Barséquanais en Champagne,200069003,CC,10,44,18890
+Communauté de communes du Bas Armagnac,243200409,CC,32,76,8965
+Communauté de communes du Bassin Auterivain Haut-Garonnais,200068807,CC,31,76,34259
+Communauté de communes du Bassin d'Aubenas,200073245,CC,07,84,41870
+Communauté de communes du Bassin de Joinville en Champagne,200044253,CC,52,44,12545
+Communauté de communes du Bassin de Marennes,241700699,CC,17,75,15847
+Communauté de communes du Bassin de Pompey,245400601,CC,54,44,40182
+Communauté de communes du Bassin de Pont-à-Mousson,200041515,CC,54,44,40753
+Communauté de communes du Bazadais,200043982,CC,33,75,16341
+Communauté de communes du Bocage Bourbonnais,200071496,CC,03,84,13982
+Communauté de communes du Bocage Mayennais,245300389,CC,53,52,18738
+Communauté de communes du Bonnevalais,242852465,CC,28,24,12463
+Communauté de communes du Briançonnais,240500439,CC,05,93,19377
+Communauté de communes du Béarn des Gaves,200067288,CC,64,75,17875
+Communauté de communes du Canton d'Erstein,200067924,CC,67,44,49423
+Communauté de communes du Canton d'Oulchy-le-Château,240200519,CC,02,32,5685
+Communauté de communes du Canton de Charly-sur-Marne,240200584,CC,02,32,15781
+Communauté de communes du Canton de La Chambre,247300361,CC,73,84,7555
+Communauté de communes du Cap Corse,200042943,CC,2B,94,6720
+Communauté de communes du Castelrenaudais,243700499,CC,37,24,16586
+Communauté de communes du Causse de Labastide-Murat,244600573,CC,46,76,3985
+Communauté de communes du Centre Corse,242020071,CC,2B,94,10085
+Communauté de communes du Centre du Haut-Rhin,246800445,CC,68,44,16501
+Communauté de communes du Centre-Ouest,200059871,CC,976,06,51449
+Communauté de communes du Chaourçois et du Val d'Armance,200071041,CC,10,44,10549
+Communauté de communes du Chemin des Dames,240200592,CC,02,32,5579
+Communauté de communes du Châtillonnais en Berry,200035848,CC,36,24,5864
+Communauté de communes du Civraisien en Poitou,200070035,CC,86,75,27702
+Communauté de communes du Clermontais,243400355,CC,34,76,29254
+Communauté de communes du Clermontois,246000376,CC,60,32,38433
+Communauté de communes du Clunisois,200040293,CC,71,27,14505
+Communauté de communes du Confluent et des Coteaux de Prayssas,200068922,CC,47,75,18330
+Communauté de communes du Cordais et du Causse (4 C),200034064,CC,81,76,5413
+Communauté de communes du Crestois et de Pays de Saillans Cœur de Drôme,200040509,CC,26,84,16500
+Communauté de communes du Créonnais,243301215,CC,33,75,18566
+Communauté de communes du Diois,242600534,CC,26,84,12345
+Communauté de communes du District Urbain de Faulquemont,245700133,CC,57,44,24527
+Communauté de communes du Doubs Baumois,242504447,CC,25,27,16465
+Communauté de communes du Dunois,241800424,CC,18,24,7327
+Communauté de communes du Fronsadais,243301397,CC,33,75,17880
+Communauté de communes du Frontonnais,200034957,CC,31,76,28705
+Communauté de communes du Genevois,247400690,CC,74,84,49527
+Communauté de communes du Golfe de Saint-Tropez,200036077,CC,83,93,58331
+Communauté de communes du Grand Armagnac,243200458,CC,32,76,13593
+Communauté de communes du Grand Autunois Morvan,200070530,CC,71,27,36807
+Communauté de communes du Grand Chambord,244100798,CC,41,24,21000
+Communauté de communes du Grand Châteaudun,200069961,CC,28,24,40668
+Communauté de communes du Grand Cubzaguais,243301223,CC,33,75,37877
+Communauté de communes du Grand Langres,200072999,CC,52,44,21452
+Communauté de communes du Grand Pic Saint-Loup,200022986,CC,34,76,52095
+Communauté de communes du Grand Pontarlier,242500338,CC,25,27,29487
+Communauté de communes du Grand Roye,200070977,CC,80,32,25592
+Communauté de communes du Grand Saint-Émilionnais,200035533,CC,33,75,14556
+Communauté de communes du Guillestrois et du Queyras,200067452,CC,05,93,8110
+Communauté de communes du Gâtinais en Bourgogne,248900748,CC,89,27,17860
+Communauté de communes du Gévaudan,244800470,CC,48,76,10072
+Communauté de communes du Haut Allier,200006930,CC,48,76,5427
+Communauté de communes du Haut Béarn,200067262,CC,64,75,33218
+Communauté de communes du Haut Pays Bigouden,242900710,CC,29,53,18979
+Communauté de communes du Haut Pays du Montreuillois,200069235,CC,62,32,16478
+Communauté de communes du Haut Val d'Oise,249500489,CC,95,11,40041
+Communauté de communes du Haut Vallespir,246600548,CC,66,76,9962
+Communauté de communes du Haut-Chablais,247400682,CC,74,84,13152
+Communauté de communes du Haut-Lignon,244301107,CC,43,84,8247
+Communauté de communes du Haut-Poitou,200069763,CC,86,75,42560
+Communauté de communes du Jovinien,248900938,CC,89,27,21269
+Communauté de communes du Kochersberg,200034635,CC,67,44,27108
+Communauté de communes du Kreiz-Breizh (CCKB),242200715,CC,22,53,18989
+Communauté de communes du Lac d'Aiguebelette (CCLA),247300668,CC,73,84,6389
+Communauté de communes du Lautrécois et du Pays d'Agout,200034056,CC,81,76,14644
+Communauté de communes du Liancourtois,246000129,CC,60,32,24236
+Communauté de communes du Limouxin,200071926,CC,11,76,28531
+Communauté de communes du Massif du Sancy,246300966,CC,"15,63",84,9816
+Communauté de communes du Massif du Vercors,243801024,CC,38,84,12474
+Communauté de communes du Minervois au Caroux,200066348,CC,34,76,14823
+Communauté de communes du Mont des Avaloirs,200042182,CC,53,52,15970
+Communauté de communes du Montbardois,242101491,CC,21,27,10468
+Communauté de communes du Nivernais Bourbonnais,245804497,CC,58,27,5321
+Communauté de communes du Nogentais,200006716,CC,10,44,16811
+Communauté de communes du Nord Est Béarn,200067296,CC,64,75,35562
+Communauté de communes du Pays Arnay Liernais,200071173,CC,21,27,7135
+Communauté de communes du Pays Beaume-Drobie,240700302,CC,07,84,9285
+Communauté de communes du Pays Bellegardien (CCPB),240100891,CC,01,84,22238
+Communauté de communes du Pays Bigouden Sud,242900702,CC,29,53,38990
+Communauté de communes du Pays Châtillonnais,242101434,CC,21,27,20138
+Communauté de communes du Pays Dunois,242320109,CC,23,75,7118
+Communauté de communes du Pays Fertois et du Bocage Carrougien,200071652,CC,61,28,4947
+Communauté de communes du Pays Fléchois,247200348,CC,72,52,28213
+Communauté de communes du Pays Fouesnantais,242900660,CC,29,53,30028
+Communauté de communes du Pays Foyen,243301371,CC,"24,33",75,16875
+Communauté de communes du Pays Gentiane,241500255,CC,15,84,6739
+Communauté de communes du Pays Grenadois,244000824,CC,40,75,7918
+Communauté de communes du Pays Haut Val d'Alzette,245701404,CC,"54,57",44,29788
+Communauté de communes du Pays Houdanais (CCPH),247800550,CC,"28,78","11,24",30609
+Communauté de communes du Pays Loudunais,248600447,CC,86,75,24963
+Communauté de communes du Pays Morcenais,244000691,CC,40,75,9612
+Communauté de communes du Pays Mornantais (COPAMO),246900740,CC,69,84,30280
+Communauté de communes du Pays Noyonnais,246000756,CC,60,32,32830
+Communauté de communes du Pays Orne Moselle,245701271,CC,57,44,53361
+Communauté de communes du Pays Rethélois,200043156,CC,08,44,30661
+Communauté de communes du Pays Rhénan,200041325,CC,67,44,37434
+Communauté de communes du Pays Rignacois,241200625,CC,12,76,5839
+Communauté de communes du Pays Riolais,247000706,CC,70,27,13467
+Communauté de communes du Pays Rochois,247400724,CC,74,84,29912
+Communauté de communes du Pays Sabolien,247200090,CC,"53,72",52,29208
+Communauté de communes du Pays Solesmois,245901038,CC,59,32,14918
+Communauté de communes du Pays Sostranien,242300135,CC,23,75,10628
+Communauté de communes du Pays Tarusate,244000766,CC,40,75,18291
+Communauté de communes du Pays Viganais,243000270,CC,30,76,10169
+Communauté de communes du Pays d'Alésia et de la Seine,242101459,CC,21,27,7498
+Communauté de communes du Pays d'Ancenis,244400552,CC,"44,49",52,63810
+Communauté de communes du Pays d'Huriel,240300657,CC,03,84,7478
+Communauté de communes du Pays d'Héricourt,247000722,CC,"25,70",27,21486
+Communauté de communes du Pays d'Iroise,242900074,CC,29,53,50568
+Communauté de communes du Pays d'Issoudun,243600236,CC,"18,36",24,19305
+Communauté de communes du Pays d'Olmes,240900464,CC,09,76,15046
+Communauté de communes du Pays d'Othe,241000447,CC,10,44,7757
+Communauté de communes du Pays d'Urfé,244200820,CC,42,84,5254
+Communauté de communes du Pays d'Uzerche,241927243,CC,19,75,10095
+Communauté de communes du Pays d'Étain,245501242,CC,55,44,7619
+Communauté de communes du Pays de Barr,200034270,CC,67,44,24562
+Communauté de communes du Pays de Bitche,200069441,CC,57,44,34194
+Communauté de communes du Pays de Bray,246000913,CC,60,32,18487
+Communauté de communes du Pays de Château-Gontier,245300447,CC,53,52,31023
+Communauté de communes du Pays de Colombey et du Sud Toulois,245400510,CC,"54,88",44,11418
+Communauté de communes du Pays de Conches,242700276,CC,27,28,18633
+Communauté de communes du Pays de Craon,200048551,CC,53,52,29323
+Communauté de communes du Pays de Cruseilles,247400112,CC,74,84,17278
+Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel,200070670,CC,35,53,24429
+Communauté de communes du Pays de Duras,244700449,CC,47,75,5845
+Communauté de communes du Pays de Falaise,241400514,CC,14,28,28011
+Communauté de communes du Pays de Fayence,200004802,CC,83,93,29593
+Communauté de communes du Pays de Fénelon,200040830,CC,24,75,9932
+Communauté de communes du Pays de Honfleur-Beuzeville,200066827,CC,"14,27",28,27666
+Communauté de communes du Pays de Lafrançaise,200067122,CC,82,76,11430
+Communauté de communes du Pays de Lalbenque-Limogne,244600532,CC,46,76,8961
+Communauté de communes du Pays de Lamastre,200016905,CC,07,84,6812
+Communauté de communes du Pays de Landivisiau,242900751,CC,29,53,34339
+Communauté de communes du Pays de Lapalisse,240300491,CC,03,84,8654
+Communauté de communes du Pays de Lauzun,244700464,CC,47,75,10626
+Communauté de communes du Pays de Limours (CCPL),249100074,CC,91,11,27699
+Communauté de communes du Pays de Lubersac-Pompadour,200066603,CC,19,75,7632
+Communauté de communes du Pays de Lumbres,246201016,CC,62,32,24650
+Communauté de communes du Pays de Lure,247000664,CC,70,27,19542
+Communauté de communes du Pays de Luxeuil,247000755,CC,70,27,15301
+Communauté de communes du Pays de Mauriac,241500271,CC,15,84,6876
+Communauté de communes du Pays de Maîche,200023075,CC,25,27,18987
+Communauté de communes du Pays de Meslay-Grez,245300223,CC,53,52,14104
+Communauté de communes du Pays de Mirepoix,200044469,CC,09,76,10876
+Communauté de communes du Pays de Montbozon et du Chanois,200041853,CC,70,27,6841
+Communauté de communes du Pays de Montmédy,245501259,CC,55,44,7131
+Communauté de communes du Pays de Mormal,200043321,CC,59,32,49087
+Communauté de communes du Pays de Mortagne,248500662,CC,85,52,29045
+Communauté de communes du Pays de Mortagne au Perche,200036069,CC,61,28,14021
+Communauté de communes du Pays de Niederbronn-les-Bains,246701098,CC,67,44,23692
+Communauté de communes du Pays de Phalsbourg,245700950,CC,57,44,17767
+Communauté de communes du Pays de Pontchâteau Saint-Gildas-des-Bois,200000438,CC,44,52,36959
+Communauté de communes du Pays de Pouzauges,248500464,CC,85,52,23876
+Communauté de communes du Pays de Revigny-sur-Ornain,245501184,CC,55,44,7106
+Communauté de communes du Pays de Ribeauvillé,246800577,CC,68,44,18588
+"Communauté de communes du Pays de Rouffach,Vignobles et Châteaux",246800494,CC,68,44,13328
+Communauté de communes du Pays de Saint-Aulaye,242400935,CC,24,75,6773
+Communauté de communes du Pays de Saint-Fulgent - Les Essarts,200071918,CC,85,52,29374
+Communauté de communes du Pays de Saint-Yrieix,248700189,CC,"19,87",75,12546
+Communauté de communes du Pays de Saint-Éloy,200072080,CC,63,84,16032
+Communauté de communes du Pays de Sainte-Odile,246701080,CC,67,44,19960
+Communauté de communes du Pays de Salars,241200658,CC,12,76,8245
+Communauté de communes du Pays de Salers,241501139,CC,15,84,8597
+Communauté de communes du Pays de Sancey-Belleherbe,242504371,CC,25,27,5623
+Communauté de communes du Pays de Saverne,200068112,CC,67,44,36469
+Communauté de communes du Pays de Serres en Quercy,200040418,CC,82,76,8499
+Communauté de communes du Pays de Sommières,243000296,CC,30,76,24803
+Communauté de communes du Pays de Stenay et du Val Dunois,200066132,CC,55,44,9792
+Communauté de communes du Pays de Tarascon,240900431,CC,09,76,8622
+Communauté de communes du Pays de Trie et du Magnoac,200070795,CC,65,76,7152
+Communauté de communes du Pays de Tronçais,240300558,CC,03,84,7546
+Communauté de communes du Pays de Valois,246000871,CC,60,32,56422
+Communauté de communes du Pays de Villeneuve en Armagnac Landais,244000774,CC,40,75,6393
+Communauté de communes du Pays de Villersexel,247000714,CC,"25,70",27,7992
+Communauté de communes du Pays de Wissembourg,246700926,CC,67,44,16101
+Communauté de communes du Pays de l'Arbresle (CCPA),246900625,CC,69,84,39599
+Communauté de communes du Pays de l'Huisne Sarthoise,247200686,CC,72,52,29064
+Communauté de communes du Pays de l'Ourcq,247700065,CC,77,11,17659
+Communauté de communes du Pays de l'Ozon,246900765,CC,69,84,27632
+Communauté de communes du Pays de la Châtaigneraie,248500415,CC,85,52,15931
+Communauté de communes du Pays de la Serre,240200469,CC,02,32,14628
+Communauté de communes du Pays de la Zorn,246700959,CC,67,44,16392
+Communauté de communes du Pays des Abers,242900553,CC,29,53,42710
+Communauté de communes du Pays des Achards,248500530,CC,85,52,20118
+Communauté de communes du Pays des Ecrins,240500462,CC,05,93,6758
+Communauté de communes du Pays des Herbiers,248500621,CC,85,52,31398
+Communauté de communes du Pays des Paillons,240600593,CC,06,93,21561
+Communauté de communes du Pays des Sorgues et des Monts de Vaucluse,248400319,CC,84,93,34517
+Communauté de communes du Pays des Sources,246000855,CC,60,32,22614
+Communauté de communes du Pays du Coquelicot,248000747,CC,80,32,28587
+Communauté de communes du Pays du Neubourg,242700607,CC,27,28,23131
+Communauté de communes du Pays du Saintois,200035772,CC,54,44,14510
+Communauté de communes du Pays du Sanon,245400759,CC,54,44,5935
+Communauté de communes du Pays du Vermandois,240200493,CC,02,32,31602
+Communauté de communes du Pays entre Loire et Rhône,244200630,CC,42,84,14384
+Communauté de communes du Perche,200006971,CC,28,24,18639
+Communauté de communes du Perche et Haut Vendômois,200040772,CC,41,24,9301
+Communauté de communes du Pilat Rhodanien,244200895,CC,42,84,17329
+Communauté de communes du Pithiverais,200066280,CC,45,24,29821
+Communauté de communes du Pithiverais-Gâtinais,200071850,CC,45,24,26277
+Communauté de communes du Piémont Cévenol,200034411,CC,30,76,22715
+Communauté de communes du Plateau Picard,246000566,CC,60,32,30474
+Communauté de communes du Plateau de Frasne et du Val du Drugeon (CFD),242504496,CC,25,27,6404
+Communauté de communes du Plateau de Lannemezan,200070787,CC,65,76,18116
+Communauté de communes du Plateau de Montbazens,241200674,CC,12,76,6337
+Communauté de communes du Plateau de Russey,242504355,CC,25,27,7160
+Communauté de communes du Pont du Gard,243000684,CC,30,76,24136
+Communauté de communes du Provinois,200037133,CC,77,11,35564
+Communauté de communes du Périgord Nontronnais,200071819,CC,24,75,15450
+Communauté de communes du Périgord Ribéracois,200040400,CC,24,75,19973
+Communauté de communes du Quercy Blanc,200039519,CC,46,76,7911
+Communauté de communes du Quercy Caussadais,248200057,CC,82,76,20893
+Communauté de communes du Quercy Rouergue et des Gorges de l'Aveyron,248200107,CC,"81,82",76,7923
+Communauté de communes du Rhône aux Gorges de l'Ardèche,240700864,CC,07,84,19471
+Communauté de communes du Ried de Marckolsheim,200030526,CC,"67,68",44,20866
+Communauté de communes du Romorantinais et du Monestois,200018406,CC,41,24,34402
+Communauté de communes du Rouillacais,241600303,CC,16,75,10001
+Communauté de communes du Royans-Vercors,200067767,CC,26,84,9929
+Communauté de communes du Réolais en Sud Gironde,200044394,CC,33,75,24414
+Communauté de communes du Réquistanais,241200542,CC,12,76,5387
+Communauté de communes du Sammiellois,245500327,CC,55,44,8443
+Communauté de communes du Sartenais Valinco Taravo,242010130,CC,2A,94,12203
+Communauté de communes du Saulnois,245701206,CC,57,44,29076
+Communauté de communes du Saves,243200599,CC,32,76,10053
+Communauté de communes du Seignanx,244000659,CC,40,75,29831
+Communauté de communes du Serein,200039709,CC,89,27,7241
+Communauté de communes du Sisteronais-Buëch,200068765,CC,"04,05,26","84,93",26005
+Communauté de communes du Sor et de l'Agout,248100158,CC,81,76,23777
+Communauté de communes du Sud,200060473,CC,976,06,31945
+Communauté de communes du Sud Avesnois,200043404,CC,59,32,24862
+Communauté de communes du Sud Corse,200040764,CC,2A,94,21467
+Communauté de communes du Sud Est Manceau,247200421,CC,72,52,18257
+Communauté de communes du Sud Estuaire,244400586,CC,44,52,31460
+Communauté de communes du Sud Gironde,200043974,CC,33,75,40187
+Communauté de communes du Sud Marnais,245100979,CC,51,44,5948
+Communauté de communes du Sud Messin,200039907,CC,57,44,17191
+Communauté de communes du Sud Territoire,249000241,CC,90,27,23968
+Communauté de communes du Sud-Artois,200035442,CC,62,32,27789
+Communauté de communes du Ternois,200069672,CC,"62,80",32,38122
+Communauté de communes du Territoire Nord Picardie,200070951,CC,80,32,31450
+Communauté de communes du Territoire de Fresnes-en-Woëvre,245501176,CC,55,44,4872
+Communauté de communes du Territoire de Lunéville à Baccarat,200070324,CC,54,44,41222
+Communauté de communes du Thouarsais,247900798,CC,79,75,36317
+Communauté de communes du Triangle Vert,200041861,CC,70,27,11197
+Communauté de communes du Trièves,200030658,CC,38,84,10526
+Communauté de communes du Val Marnaysien,200041887,CC,"25,70",27,14767
+Communauté de communes du Val d'Amboise,200043065,CC,37,24,28788
+Communauté de communes du Val d'Amour,243900420,CC,39,27,9528
+Communauté de communes du Val d'Argent,246800395,CC,68,44,9483
+Communauté de communes du Val d'Ay,240700716,CC,07,84,6061
+Communauté de communes du Val d'Essonne (CCVE),249100546,CC,91,11,62779
+Communauté de communes du Val d'Orne,246100390,CC,61,28,5946
+Communauté de communes du Val de Bouzanne,200018521,CC,36,24,6098
+Communauté de communes du Val de Cher,240300566,CC,03,84,5599
+Communauté de communes du Val de Drôme en Biovallée,242600252,CC,26,84,31541
+Communauté de communes du Val de Morteau,242504116,CC,25,27,21698
+Communauté de communes du Val de Sarthe,247200629,CC,72,52,30925
+Communauté de communes du Val de Somme,248000499,CC,80,32,26934
+Communauté de communes du Val de Sully,200070100,CC,45,24,24654
+Communauté de communes du Val de Vienne,248719288,CC,87,75,16543
+Communauté de communes du Val de l'Aisne,240200501,CC,02,32,20560
+Communauté de communes du Val de l'Eyre,243301405,CC,33,75,22155
+Communauté de communes du Val de l'Oise,200040426,CC,02,32,16106
+Communauté de communes du Vallespir,246600373,CC,66,76,20772
+Communauté de communes du Vexin Normand,200071843,CC,27,28,33250
+Communauté de communes du Vexin-Thelle,246000707,CC,60,32,20930
+Communauté de communes du Vexin-Val de Seine,249500513,CC,95,11,16859
+Communauté de communes du Vimeu,200070944,CC,80,32,22833
+Communauté de communes du Volvestre,200066819,CC,31,76,31322
+Communauté de communes du Warndt,245701164,CC,57,44,17747
+Communauté de communes entre Beauce et Perche,200058360,CC,28,24,21770
+Communauté de communes interrégionale Aumale - Blangy-sur-Bresle,200069722,CC,"76,80","28,32",21650
+Communauté de communes l'Orée de la Brie,247700644,CC,"77,91",11,29198
+Communauté de communes rurales de l'Entre-Deux-Mers,200069599,CC,33,75,16848
+Communauté de communes Écueillé-Valençay,200040558,CC,36,24,11178
+Communauté de communes Éguzon - Argenton - Vallée de la Creuse,200068872,CC,36,24,19919
+Communauté de communes Élan Limousin Avenir Nature,200066512,CC,87,75,27961
+Communauté urbaine Angers Loire Métropole,244900015,CU,49,52,313686
+Communauté urbaine Caen la Mer,200065597,CU,14,28,279420
+Communauté urbaine Grand Besançon Métropole,242500361,CU,25,27,202447
+Communauté urbaine Grand Paris Seine et Oise,200059889,CU,78,11,432248
+Communauté urbaine Le Creusot Montceau-les-Mines,247100290,CU,71,27,92202
+Communauté urbaine Le Havre Seine Métropole,200084952,CU,76,28,269354
+Communauté urbaine Le Mans Métropole,247200132,CU,72,52,213615
+Communauté urbaine Limoges Métropole,248719312,CU,87,75,209926
+Communauté urbaine Perpignan Méditerranée Métropole,200027183,CU,66,76,276919
+Communauté urbaine d'Alençon,246100663,CU,"61,72","28,52",57255
+Communauté urbaine d'Arras,200033579,CU,62,32,111727
+Communauté urbaine de Dunkerque,245900428,CU,59,32,195245
+Communauté urbaine du Grand Poitiers,200069854,CU,86,75,201860
+Communauté urbaine du Grand Reims,200067213,CU,51,44,300403
+Creuse Confluence,200067544,CC,23,75,16613
+Creuse Sud Ouest,200067189,CC,23,75,14123
+Dijon Métropole,242100410,MET,21,27,262311
+Est Ensemble,200057875,EPT,93,11,440811
+Eurométropole de Strasbourg,246700488,MET,67,44,520036
+Grand Longwy Agglomération,245400262,CA,54,44,64260
+Grand Paris - Grand Est,200058790,EPT,93,11,409808
+Grand Paris Seine Ouest,200057974,EPT,92,11,321543
+Grand Paris Sud Est Avenir,200058006,EPT,94,11,325525
+Grand-Orly Seine Bièvre,200058014,EPT,94,11,726500
+Grenoble-Alpes-Métropole,200040715,MET,38,84,455590
+LBN Communauté,200040475,CC,72,52,18313
+Metz Métropole,200039865,MET,57,44,232797
+Mont de Marsan Agglomération,244000808,CA,40,75,57192
+Montpellier Méditerranée Métropole,243400017,MET,34,76,513734
+Métropole Européenne de Lille,200093201,MET,59,32,1198654
+Métropole Européenne de Lille,200093201,MET,59,32,1198654
+Métropole Européenne de Lille,200093201,MET,59,32,1198654
+Métropole Nice Côte d'Azur,200030195,MET,06,93,565867
+Métropole Rouen Normandie,200023414,MET,76,28,504301
+Métropole Toulon-Provence-Méditerranée,248300543,MET,83,93,453407
+Métropole d'Aix-Marseille-Provence,200054807,MET,"13,83,84",93,1933030
+Métropole de Lyon,200046977,MET,69,84,1439981
+Métropole du Grand Nancy,245400676,MET,54,44,261643
+Métropole du Grand Paris,200054781,MET,"75,91,92,93,94,95",11,7152537
+Nantes Métropole,244400404,MET,44,52,689424
+Orléans Métropole,244500468,MET,45,24,297846
+Paris Ouest La Défense,200057982,EPT,92,11,569702
+Paris Terres d'Envol,200058097,EPT,93,11,371039
+Paris-Est-Marne et Bois,200057941,EPT,94,11,517219
+Plaine Commune,200057867,EPT,93,11,453591
+Ploërmel Communauté,200066777,CC,56,53,43814
+Rennes Métropole,243500139,MET,35,53,476936
+Saint-Etienne Métropole,244200770,MET,42,84,411009
+Saint-Flour Communauté,200066660,CC,15,84,24379
+Toulouse Métropole,243100518,MET,31,76,828373
+Tours Métropole Val de Loire,243700754,MET,37,24,302825
+Vallée Sud Grand Paris,200057966,EPT,92,11,409929
+,,,,,

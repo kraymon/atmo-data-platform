@@ -13,8 +13,8 @@ def render_hero(data: dict):
     st.markdown(f"""
         <div class="hero">
             <div>
-                <div class="hero-title">ATMO<span>·</span>AIR</div>
-                <div class="hero-sub">Observatoire national de la qualité de l'air · France métropolitaine & DOM</div>
+                <div class="hero-title"><span class="flicker-1">A</span>tmo <span class="flicker-2">D</span>ashboar<span class="flicker-3">d</span></div>
+                <div class="hero-sub">Observatoire national de la qualité de l'air · France métropolitaine &amp; DOM</div>
             </div>
             <div class="live-badge">
                 <div class="live-dot"></div>

@@ -6,6 +6,7 @@ import requests
 import logging
 import os
 import pandas as pd
+import duckdb
 from airflow.sdk import get_current_context
 from airflow.providers.standard.operators.bash import BashOperator
 
@@ -93,7 +94,7 @@ def atmo_daily_ingest():
             dbt run \
                 --profiles-dir /opt/airflow/dbt \
                 --project-dir /opt/airflow/dbt \
-                --select stg_atmo_daily mart_atmo_commune mart_atmo_daily_national mart_atmo_daily_departement
+                --select stg_atmo_daily mart_atmo_commune mart_atmo_daily_national mart_atmo_daily_departement mon_communes_coverage mon_departements_manquants
         """,
         env={
             "DUCKDB_PATH": "/opt/data/analytics/atmo.duckdb",
@@ -102,9 +103,41 @@ def atmo_daily_ingest():
         },
     )
 
+    @task
+    def check_monitoring(_):
+        con = duckdb.connect("/opt/data/analytics/atmo.duckdb", read_only=True)
+
+        coverage = con.sql("""
+            SELECT statut, nb_communes_manquantes, nb_communes_hier
+            FROM mon_commune_coverage
+        """).df()
+
+        manquants = con.sql("""
+            SELECT statut_global, nb_departements_manquants
+            FROM mon_departement_manquant
+            WHERE statut_global != 'OK'
+        """).df()
+
+        con.close()
+
+        alertes = []
+
+        if not coverage.empty and coverage["statut"].iloc[0] == "CRITICAL":
+            n = int(coverage["nb_communes_manquantes"].iloc[0])
+            total = int(coverage["nb_communes_hier"].iloc[0])
+            alertes.append(f"Couverture communes CRITICAL : {n} manquantes vs hier ({total})")
+
+        if not manquants.empty and manquants["statut_global"].iloc[0] == "CRITICAL":
+            n = int(manquants["nb_departements_manquants"].iloc[0])
+            alertes.append(f"Départements manquants CRITICAL : {n} absents vs hier")
+
+        if alertes:
+            raise ValueError("Monitoring ATMO :\n" + "\n".join(alertes))
+
     data = download_data()
     validate = validate_schema(data)
     parquet = csv_to_parquet(validate)
     parquet >> run_dbt_models
+    check_monitoring(run_dbt_models.output)
 
 atmo_daily_ingest()

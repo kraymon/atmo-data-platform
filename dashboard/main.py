@@ -5,6 +5,7 @@ from components.hero import render_hero
 from components.carte import render_carte
 from components.tendance import render_tendance
 from components.communes import render_communes
+from components.monitoring import render_monitoring
 from components.sql_explorer import render_sql_explorer
 
 st.set_page_config(
@@ -17,14 +18,16 @@ inject_styles()
 data = load_all()
 render_hero(data)
 
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "CARTE · DÉPARTEMENTS",
     "TENDANCE NATIONALE",
     "CLASSEMENT COMMUNES",
+    "MONITORING",
     "EXPLORATEUR SQL",
 ])
 
 with tab1: render_carte(data)
 with tab2: render_tendance(data)
 with tab3: render_communes(data)
-with tab4: render_sql_explorer(data)
+with tab4: render_monitoring(data)
+with tab5: render_sql_explorer(data)

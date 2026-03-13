@@ -17,7 +17,7 @@ def meteo_historical_ingest():
 
 
         start_date = "2026-02-28"
-        end_date   = "2026-03-08"
+        end_date   = "2026-03-13"
 
         url = "https://archive-api.open-meteo.com/v1/archive"
 

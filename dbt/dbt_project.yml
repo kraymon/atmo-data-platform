@@ -15,3 +15,14 @@ models:
 
     marts:
       +materialized: table
+
+    monitoring:
+      +materialized: table
+
+seeds:
+  atmo_platform:
+    identifiants-epci-2024:
+      +column_types:
+        SIREN: varchar
+        code_departement: varchar
+        code_region: varchar

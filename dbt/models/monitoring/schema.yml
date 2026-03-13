@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: mon_commune_coverage
+    description: >
+      Suivi quotidien du nombre de communes remontées par la source ATMO.
+      Détecte les chutes de couverture par comparaison avec J-1.
+    columns:
+      - name: date_check
+        data_tests: [not_null]
+      - name: nb_communes_aujourd_hui
+        data_tests: [not_null]
+      - name: statut
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['OK', 'WARN', 'CRITICAL']
+
+  - name: mon_departement_manquant
+    description: >
+      Compare les départements présents hier vs aujourd'hui.
+      Remonte les départements absents du dernier jour d'ingestion.
+    columns:
+      - name: date_check
+        data_tests: [not_null]
+      - name: statut_global
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['OK', 'WARN', 'CRITICAL']
