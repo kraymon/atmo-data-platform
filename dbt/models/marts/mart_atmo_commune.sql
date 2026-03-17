@@ -47,16 +47,7 @@ aggregated as (
 
 with_dominant as (
     select *,
-        array_filter(
-            ['NO2', 'O3', 'PM10', 'PM25', 'SO2'],
-            x -> CASE x
-                WHEN 'NO2'  THEN indice_moyen_no2  = greatest(indice_moyen_no2, indice_moyen_o3, indice_moyen_pm10, indice_moyen_pm25, indice_moyen_so2)
-                WHEN 'O3'   THEN indice_moyen_o3   = greatest(indice_moyen_no2, indice_moyen_o3, indice_moyen_pm10, indice_moyen_pm25, indice_moyen_so2)
-                WHEN 'PM10' THEN indice_moyen_pm10 = greatest(indice_moyen_no2, indice_moyen_o3, indice_moyen_pm10, indice_moyen_pm25, indice_moyen_so2)
-                WHEN 'PM25' THEN indice_moyen_pm25 = greatest(indice_moyen_no2, indice_moyen_o3, indice_moyen_pm10, indice_moyen_pm25, indice_moyen_so2)
-                WHEN 'SO2'  THEN indice_moyen_so2  = greatest(indice_moyen_no2, indice_moyen_o3, indice_moyen_pm10, indice_moyen_pm25, indice_moyen_so2)
-            END
-        ) as polluants_dominants
+        {{ polluant_dominant('indice_moyen') }} as polluants_dominants
     from aggregated
 )
 

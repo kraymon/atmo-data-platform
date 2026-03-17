@@ -28,23 +28,14 @@ aggregated as (
         round(100.0 * count(*) filter (
             where array_contains(polluants_declencheurs, 'SO2')
         ) / count(*), 1) as pct_so2_declencheur
-    from stg_atmo_daily
+    from base
     group by date_ech
 ),
 
 with_dominant as (
     select
         *,
-        array_filter(
-            ['NO2', 'O3', 'PM10', 'PM25', 'SO2'],
-            x -> CASE x
-                WHEN 'NO2'  THEN pct_no2_declencheur  = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
-                WHEN 'O3'   THEN pct_o3_declencheur   = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
-                WHEN 'PM10' THEN pct_pm10_declencheur = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
-                WHEN 'PM25' THEN pct_pm25_declencheur = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
-                WHEN 'SO2'  THEN pct_so2_declencheur  = greatest(pct_no2_declencheur, pct_o3_declencheur, pct_pm10_declencheur, pct_pm25_declencheur, pct_so2_declencheur)
-            END
-        ) as polluants_dominants_national
+        {{ polluant_dominant('pct', 'declencheur') }} as polluants_dominants_national
     from aggregated
 )
 

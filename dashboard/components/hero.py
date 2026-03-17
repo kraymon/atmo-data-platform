@@ -14,7 +14,7 @@ def render_hero(data: dict):
         <div class="hero">
             <div>
                 <div class="hero-title"><span class="flicker-1">A</span>tmo <span class="flicker-2">D</span>ashboar<span class="flicker-3">d</span></div>
-                <div class="hero-sub">Observatoire national de la qualité de l'air · France métropolitaine &amp; DOM</div>
+                <div class="hero-sub">Données : ATMO France / data.gouv.fr (ODbL 1.0 license) · Open-Meteo (CC-BY 4.0 license, non-commercial)</div>
             </div>
             <div class="live-badge">
                 <div class="live-dot"></div>

@@ -5,7 +5,8 @@ Pipeline de données pour l'ingestion et l'analyse quotidienne de la qualité de
 ## Stack
 
 - **Airflow** - orchestration du pipeline quotidien
-- **dbt + DuckDB** - transformations et stockage analytique
+- **dbt** - transformations SQL et tests qualité
+- **DuckDB** - stockage analytique local
 - **Docker** - environnement local reproductible
 - **Streamlit** - dashboard de visualisation
 
@@ -24,9 +25,15 @@ L'historique s'accumule jour après jour : un fichier CSV téléchargé puis con
 
 Le DAG filtre uniquement `date_ech == J` pour ne conserver que la donnée observée, pas les prévisions.
 
+**Données météo** - Open-Meteo (Archive API)
+- URL : `https://archive-api.open-meteo.com/v1/archive`
+- Granularité : département (via centroides `departements_centroides.csv`)
+- Variables : température min/max/moyenne, précipitations, vent, weathercode
+- Licence : CC BY 4.0 (**usage non-commercial uniquement**)
+
 ## Schéma des données
 
-### Staging — `stg_atmo_daily`
+### Staging — `stg_atmo_daily`, `stg_meteo_daily`
 
 | Colonne | Type | Description |
 |---|---|---|
@@ -66,6 +73,27 @@ Le DAG filtre uniquement `date_ech == J` pour ne conserver que la donnée observ
 | `mart_atmo_commune` | commune | Profil agrégé sur toute la période |
 | `mart_atmo_departement_daily` | département × jour | Évolution quotidienne par département |
 | `mart_atmo_daily_national` | jour | Vue nationale quotidienne |
+| `mart_atmo_meteo_daily_departement` | département × jour | Croisement ATMO + météo |
+
+### Monitoring
+ 
+| Modèle | Description |
+|---|---|
+| `mon_commune_coverage` | Compare nb communes J vs J-1, statut OK/WARN/CRITICAL |
+| `mon_departement_manquant` | Départements présents hier absents aujourd'hui |
+
+## Calcul du `code_departement`
+ 
+Le code département est résolu via deux référentiels INSEE en seed dbt, avec fallback :
+ 
+```
+1. COG 2026 (v_commune_2026)     — communes standard        → colonne DEP
+2. Identifiants EPCI 2024        — EPCI                     → colonne code_departement
+3. Hardcode                      — CC Baud Communauté (200096675) → 56
+4. Fallback left(code_zone, 2)   — communes déléguées (COMD)
+```
+ 
+Les EPCI multi-départements (`"27,28"`) conservent le premier département via `split_part`.
 
 ## Contraintes connues
 
@@ -79,3 +107,4 @@ Le DAG filtre uniquement `date_ech == J` pour ne conserver que la donnée observ
   communes dans les données Atmo Guyane. Conservés tels quels, 
   la déduplication du staging s'applique jour par jour.
 - **`nom_commune` null** : ~14 communes (arrondissements de Lyon, certaines communes du Cantal) ont un libellé non renseigné à la source.
+- **SQL Explorer** : exécute du SQL brut en `read_only`. Juste en local.

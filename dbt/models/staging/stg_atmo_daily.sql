@@ -23,29 +23,20 @@ epci as (
 
 cleaned as (
     select
-        cast(date_ech as date)     as date_ech,
-        cast(s.code_zone as varchar) as code_insee,
-        lib_zone                   as nom_commune,
-        type_zone,
-        source                     as source_aasqa,
-        cast(code_qual as tinyint) as code_qual,
-        lib_qual,
-        coul_qual,
-        cast(code_no2  as tinyint) as code_no2,
-        cast(code_o3   as tinyint) as code_o3,
-        cast(code_pm10 as tinyint) as code_pm10,
-        cast(code_pm25 as tinyint) as code_pm25,
-        cast(code_so2  as tinyint) as code_so2,
-        array_filter(
-            ['NO2', 'O3', 'PM10', 'PM25', 'SO2'],
-            x -> CASE x
-                WHEN 'NO2'  THEN code_no2  = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
-                WHEN 'O3'   THEN code_o3   = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
-                WHEN 'PM10' THEN code_pm10 = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
-                WHEN 'PM25' THEN code_pm25 = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
-                WHEN 'SO2'  THEN code_so2  = greatest(code_no2, code_o3, code_pm10, code_pm25, code_so2)
-            END
-        ) as polluants_declencheurs,
+        cast(s.date_ech as date)          as date_ech,
+        cast(s.code_zone as varchar)    as code_insee,
+        s.lib_zone                        as nom_commune,
+        s.type_zone,
+        s.source                          as source_aasqa,
+        cast(s.code_qual as tinyint)      as code_qual,
+        s.lib_qual,
+        s.coul_qual,
+        cast(s.code_no2  as tinyint)      as code_no2,
+        cast(s.code_o3   as tinyint)      as code_o3,
+        cast(s.code_pm10 as tinyint)      as code_pm10,
+        cast(s.code_pm25 as tinyint)      as code_pm25,
+        cast(s.code_so2  as tinyint)      as code_so2,
+        {{ polluant_dominant('code') }} as polluants_declencheurs,
 
         -- Département via référentiel INSEE, fallback SIREN EPCI
         coalesce(
@@ -58,15 +49,15 @@ cleaned as (
         ) as code_departement,
 
         CASE
-            WHEN cast(x_wgs84 as float) BETWEEN -180 AND 180
-            AND  cast(y_wgs84 as float) BETWEEN -90  AND 90
-            THEN cast(x_wgs84 as float)
+            WHEN cast(s.x_wgs84 as float) BETWEEN -180 AND 180
+            AND  cast(s.y_wgs84 as float) BETWEEN -90  AND 90
+            THEN cast(s.x_wgs84 as float)
             ELSE NULL
         END as longitude,
         CASE
-            WHEN cast(x_wgs84 as float) BETWEEN -180 AND 180
-            AND  cast(y_wgs84 as float) BETWEEN -90  AND 90
-            THEN cast(y_wgs84 as float)
+            WHEN cast(s.x_wgs84 as float) BETWEEN -180 AND 180
+            AND  cast(s.y_wgs84 as float) BETWEEN -90  AND 90
+            THEN cast(s.y_wgs84 as float)
             ELSE NULL
         END as latitude
 
@@ -74,12 +65,12 @@ cleaned as (
     left join communes c on cast(s.code_zone as varchar) = c.code_zone
     left join epci     e on cast(s.code_zone as varchar) = e.code_zone
 
-    where code_qual  not in (0, 7)
-      and code_no2   not in (0, 7)
-      and code_o3    not in (0, 7)
-      and code_pm10  not in (0, 7)
-      and code_pm25  not in (0, 7)
-      and code_so2   not in (0, 7)
+    where s.code_qual  not in (0, 7)
+      and s.code_no2   not in (0, 7)
+      and s.code_o3    not in (0, 7)
+      and s.code_pm10  not in (0, 7)
+      and s.code_pm25  not in (0, 7)
+      and s.code_so2   not in (0, 7)
       and s.code_zone  is not null
 ),
 

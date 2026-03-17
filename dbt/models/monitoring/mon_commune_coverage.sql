@@ -30,21 +30,29 @@ communes_manquantes as (
     where a.code_insee is null
 ),
  
+counts as (
+    select
+        (select count(*) from aujourd_hui)       as nb_aujourd_hui,
+        (select count(*) from hier)              as nb_hier,
+        (select count(*) from communes_manquantes) as nb_manquantes
+),
+
 final as (
     select
-        dates.date_aujourd_hui                          as date_check,
-        dates.date_hier                                 as date_reference,
-        (select count(*) from aujourd_hui)              as nb_communes_aujourd_hui,
-        (select count(*) from hier)                     as nb_communes_hier,
-        (select count(*) from communes_manquantes)      as nb_communes_manquantes,
+        dates.date_aujourd_hui                   as date_check,
+        dates.date_hier                          as date_reference,
+        c.nb_aujourd_hui                         as nb_communes_aujourd_hui,
+        c.nb_hier                                as nb_communes_hier,
+        c.nb_manquantes                          as nb_communes_manquantes,
         case
-            when (select count(*) from communes_manquantes) = 0
+            when c.nb_manquantes = 0
                 then 'OK'
-            when (select count(*) from communes_manquantes) > (select count(*) * 0.20 from hier)
+            when c.nb_manquantes > c.nb_hier * 0.20
                 then 'CRITICAL'
             else 'WARN'
         end as statut
     from dates
+    cross join counts c
 )
  
 select * from final
