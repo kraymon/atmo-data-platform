@@ -94,7 +94,7 @@ def atmo_daily_ingest():
             dbt run \
                 --profiles-dir /opt/airflow/dbt \
                 --project-dir /opt/airflow/dbt \
-                --select stg_atmo_daily mart_atmo_commune mart_atmo_daily_national mart_atmo_daily_departement mon_communes_coverage mon_departements_manquants
+                --select stg_atmo_daily mart_atmo_commune mart_atmo_daily_national mart_atmo_daily_departement mon_commune_coverage mon_departement_manquant
         """,
         env={
             "DUCKDB_PATH": "/opt/data/analytics/atmo.duckdb",
