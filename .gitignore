@@ -21,9 +21,12 @@ data/analytics/
 .env.local
 .vscode/
 
-#terraform
-terraform/
+# terraform
+.terraform/
 *.tfstate
 *.tfstate.backup
 terraform.tfvars
+*.tfvars
+*.tfvars.json
+*.tfplan
 .terraform.lock.hcl
