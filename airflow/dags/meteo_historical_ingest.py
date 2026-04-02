@@ -5,19 +5,31 @@ import pandas as pd
 import numpy as np
 import logging
 import os
+from io import BytesIO
+from azure.storage.blob import BlobServiceClient
 
 log = logging.getLogger(__name__)
+
+# Configuration Azure (récupérée depuis les variables d'environnement comme ton autre DAG)
+AZURE_STORAGE_ACCOUNT = os.environ.get("AZURE_STORAGE_ACCOUNT")
+AZURE_STORAGE_KEY = os.environ.get("AZURE_STORAGE_KEY")
+
+def get_blob_client():
+    return BlobServiceClient(
+        account_url=f"https://{AZURE_STORAGE_ACCOUNT}.blob.core.windows.net",
+        credential=AZURE_STORAGE_KEY
+    )
 
 @dag(schedule=None, start_date=datetime(2026, 2, 28), catchup=False)
 def meteo_historical_ingest():
 
     @task
     def fetch_meteo_historical() -> dict:
+        # Note : Le fichier seeds reste en local car il fait partie de ton repo dbt/airflow
         centroides = pd.read_csv("/opt/airflow/dbt/seeds/departements_centroides.csv")
 
-
         start_date = "2026-02-28"
-        end_date   = "2026-03-13"
+        end_date   = "2026-04-01"
 
         url = "https://archive-api.open-meteo.com/v1/archive"
 
@@ -37,17 +49,13 @@ def meteo_historical_ingest():
             ],
         }
 
-        log.info(f"Backfill météo du {start_date} au {end_date}")
-
+        log.info(f"Appel API Open-Meteo pour {len(centroides)} points")
         om = openmeteo_requests.Client()
         responses = om.weather_api(url, params=params)
 
-        # Reconstruire toutes les lignes : N départements × N jours
         rows = []
         for i, response in enumerate(responses):
             daily = response.Daily()
-
-            # Reconstruire la liste des dates depuis l'interval retourné
             nb_jours = daily.Variables(0).ValuesAsNumpy().shape[0]
             first_date = datetime.fromtimestamp(daily.Time(), tz=timezone.utc).date()
 
@@ -68,26 +76,41 @@ def meteo_historical_ingest():
                 })
 
         df = pd.DataFrame(rows)
-
-        # Sauvegarder un Parquet par jour - avec idempotence
+        client = get_blob_client()
+        
         saved, skipped = 0, 0
+        
+        # Itération par date pour l'idempotence sur Azure
         for ds, group in df.groupby("date_ech"):
-            parquet_path = f"/opt/data/processed/meteo/{ds}_meteo_data.parquet"
-            raw_path     = f"/opt/data/raw/meteo/{ds}_meteo_data.json"
+            # Chemins des blobs (on enlève /opt/data et on définit le container)
+            parquet_blob_name = f"meteo/{ds}_meteo_data.parquet"
+            json_blob_name    = f"meteo/{ds}_meteo_data.json"
 
-            if os.path.exists(parquet_path):
-                log.info(f"Déjà traité : {ds} - skip")
+            # Vérification d'existence sur Azure (Container "processed")
+            blob_parquet = client.get_blob_client(container="processed", blob=parquet_blob_name)
+            
+            if blob_parquet.exists():
+                log.info(f"Azure Blob déjà présent : {parquet_blob_name} - skip")
                 skipped += 1
                 continue
 
-            os.makedirs(os.path.dirname(parquet_path), exist_ok=True)
-            os.makedirs(os.path.dirname(raw_path), exist_ok=True)
+            # Sauvegarde PARQUET vers container "processed"
+            pq_buffer = BytesIO()
+            group.to_parquet(pq_buffer, index=False, compression="snappy")
+            pq_buffer.seek(0)
+            blob_parquet.upload_blob(pq_buffer, overwrite=True)
 
-            group.to_parquet(parquet_path, index=False)
-            group.to_json(raw_path, orient="records")
+            # Sauvegarde JSON vers container "raw"
+            json_buffer = BytesIO()
+            # On convertit en string d'abord pour l'upload blob
+            json_data = group.to_json(orient="records")
+            blob_raw = client.get_blob_client(container="raw", blob=json_blob_name)
+            blob_raw.upload_blob(json_data, overwrite=True)
+
+            log.info(f"Upload réussi pour le {ds}")
             saved += 1
 
-        log.info(f"Backfill terminé : {saved} jours sauvegardés, {skipped} ignorés")
+        log.info(f"Terminé : {saved} jours uploadés, {skipped} déjà présents sur Azure")
         return {"saved": saved, "skipped": skipped}
 
     fetch_meteo_historical()

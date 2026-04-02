@@ -1,4 +1,5 @@
-DUCKDB_PATH = "./data/analytics/atmo.duckdb"
+import os
+DUCKDB_PATH = os.environ.get("DUCKDB_PATH", "./data/analytics/atmo.duckdb")
 
 COULEURS_INDICE = {
     1: "#2DD4BF",

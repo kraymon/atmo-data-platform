@@ -5,18 +5,7 @@ from config import (
 )
 
 def render_meteo_atmo(data: dict):
-    con = data["con"]
-
-    df = con.sql("""
-        SELECT
-            date_ech,
-            round(avg(temperature_max), 1) as temperature_max,
-            round(avg(indice_moyen), 2)     as indice_moyen
-        FROM mart_atmo_meteo_daily_departement
-        WHERE temperature_max IS NOT NULL
-        GROUP BY date_ech
-        ORDER BY date_ech
-    """).df()
+    df = data["meteo_atmo"]
 
     if df.empty:
         st.info("Aucune donnée disponible.")

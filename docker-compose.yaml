@@ -90,6 +90,28 @@ x-airflow-common:
       condition: service_healthy
 
 services:
+  streamlit:
+    build: ./dashboard # utilise le dockerfile situé dans le dossier dashboard
+    expose:
+      - "8501"
+    volumes:
+      - ./data:/opt/data
+    env_file:
+      - .env
+    restart: always
+
+  caddy:
+    image: caddy:2
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - streamlit
+
   postgres:
     image: postgres:16
     environment:
@@ -337,3 +359,5 @@ services:
 
 volumes:
   postgres-db-volume:
+  caddy_data:
+  caddy_config:

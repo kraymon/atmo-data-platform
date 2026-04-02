@@ -10,8 +10,10 @@ RUN apt-get update && apt-get install -y \
 USER airflow
 
 RUN pip install --no-cache-dir \
-    duckdb \
+    duckdb==1.2.0 \
     dbt-core==1.7.4 \
-    dbt-duckdb==1.7.4
+    dbt-duckdb==1.7.4 \
+    adlfs==2026.2.0 \
+    azure-storage-blob==12.28.0
 
 RUN pip install openmeteo-requests

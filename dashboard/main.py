@@ -19,13 +19,12 @@ inject_styles()
 data = load_all()
 render_hero(data)
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "CARTE · DÉPARTEMENTS",
     "TENDANCE NATIONALE",
     "CLASSEMENT COMMUNES",
     "MÉTÉO · CORRÉLATIONS",
     "MONITORING",
-    "EXPLORATEUR SQL",
 ])
 
 with tab1: render_carte(data)
@@ -33,4 +32,4 @@ with tab2: render_tendance(data)
 with tab3: render_communes(data)
 with tab4: render_meteo_atmo(data)
 with tab5: render_monitoring(data)
-with tab6: render_sql_explorer(data)
+# with tab6: render_sql_explorer(data)

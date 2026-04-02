@@ -1,0 +1,3 @@
+atmo-dashboard.francecentral.cloudapp.azure.com {
+    reverse_proxy streamlit:8501
+}

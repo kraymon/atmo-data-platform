@@ -1,8 +1,14 @@
 default:
   target: dev
   outputs:
-
     dev:
       type: duckdb
       path: "{{ env_var('DUCKDB_PATH') }}"
       threads: 4
+      extensions:
+        - parquet
+      filesystems:
+        - fs: abfs
+          anon: false
+          account_name: "{{ env_var('AZURE_STORAGE_ACCOUNT') }}"
+          account_key: "{{ env_var('AZURE_STORAGE_KEY') }}"
