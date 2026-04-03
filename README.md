@@ -9,6 +9,7 @@ Pipeline de données pour l'ingestion et l'analyse quotidienne de la qualité de
 - **DuckDB** - stockage analytique local
 - **Docker** - environnement local reproductible
 - **Streamlit** - dashboard de visualisation
+- **Partie Cloud** : Azure (VM & Blob Storage), Terraform (IaC) et Caddy (reverse proxy HTTPS)
 
 ### Principe clé
 
@@ -108,3 +109,26 @@ Les EPCI multi-départements (`"27,28"`) conservent le premier département via 
   la déduplication du staging s'applique jour par jour.
 - **`nom_commune` null** : ~14 communes (arrondissements de Lyon, certaines communes du Cantal) ont un libellé non renseigné à la source.
 - **SQL Explorer** : exécute du SQL brut en `read_only`. Juste en local.
+
+## Déploiement Azure (branche `cloud_azure`)
+
+La branche `cloud_azure` contient la version déployée sur Azure.
+
+### Infrastructure (Terraform)
+
+- Azure Resource Group : atmo-rg (francecentral)
+- VM Standard_B2ms (2 vCPU, 8 Go RAM) : Docker + Docker Compose, Airflow, Streamlit
+- Storage Account : atmodataken
+- Container raw/ : CSV bruts + JSON météo
+- Container processed/ : Parquet
+
+### Ce qui change par rapport au local
+
+- **Stockage (Data Lake)** : les fichiers raw et processed sont sur **Azure Blob Storage** au lieu du filesystem local
+- **DAGs** : upload/download via `azure-storage-blob` + lecture dbt via `abfs://` (fsspec)
+- **Streamlit** : containerisé dans Docker, accessible publiquement via reverse proxy (Caddy)
+- **mon_commune_coverage** : ce mart a été retiré dans la partie cloud pour le moment
+
+### Dashboard public
+
+https://atmo-dashboard.francecentral.cloudapp.azure.com
